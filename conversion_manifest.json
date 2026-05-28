@@ -1,0 +1,918 @@
+[
+  {
+    "name": "api-integration",
+    "category": "automation",
+    "source": "skills/automation/api-integration/SKILL.md",
+    "destination": "skills/api-integration/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 333
+  },
+  {
+    "name": "content-pipeline",
+    "category": "automation",
+    "source": "skills/automation/content-pipeline/SKILL.md",
+    "destination": "skills/content-pipeline/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 249
+  },
+  {
+    "name": "cron-scheduler",
+    "category": "automation",
+    "source": "skills/automation/cron-scheduler/SKILL.md",
+    "destination": "skills/cron-scheduler/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 297
+  },
+  {
+    "name": "hosted-mcp-catalog",
+    "category": "automation",
+    "source": "skills/automation/hosted-mcp-catalog/SKILL.md",
+    "destination": "skills/hosted-mcp-catalog/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      ".mcp.json",
+      "Claude",
+      "Claude Code",
+      "Claude Desktop",
+      "MCP"
+    ],
+    "resources_copied": [],
+    "line_count": 140
+  },
+  {
+    "name": "n8n-workflow-builder",
+    "category": "automation",
+    "source": "skills/automation/n8n-workflow-builder/SKILL.md",
+    "destination": "skills/n8n-workflow-builder/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 262
+  },
+  {
+    "name": "webhook-designer",
+    "category": "automation",
+    "source": "skills/automation/webhook-designer/SKILL.md",
+    "destination": "skills/webhook-designer/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 322
+  },
+  {
+    "name": "client-onboarding",
+    "category": "business",
+    "source": "skills/business/client-onboarding/SKILL.md",
+    "destination": "skills/client-onboarding/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 290
+  },
+  {
+    "name": "contract-template",
+    "category": "business",
+    "source": "skills/business/contract-template/SKILL.md",
+    "destination": "skills/contract-template/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 272
+  },
+  {
+    "name": "financial-model",
+    "category": "business",
+    "source": "skills/business/financial-model/SKILL.md",
+    "destination": "skills/financial-model/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 265
+  },
+  {
+    "name": "freelancer-toolkit",
+    "category": "business",
+    "source": "skills/business/freelancer-toolkit/SKILL.md",
+    "destination": "skills/freelancer-toolkit/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 165
+  },
+  {
+    "name": "gdpr",
+    "category": "business",
+    "source": "skills/business/gdpr/SKILL.md",
+    "destination": "skills/gdpr/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 263
+  },
+  {
+    "name": "invoice-generator",
+    "category": "business",
+    "source": "skills/business/invoice-generator/SKILL.md",
+    "destination": "skills/invoice-generator/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 248
+  },
+  {
+    "name": "licensing",
+    "category": "business",
+    "source": "skills/business/licensing/SKILL.md",
+    "destination": "skills/licensing/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 256
+  },
+  {
+    "name": "proposal-writer",
+    "category": "business",
+    "source": "skills/business/proposal-writer/SKILL.md",
+    "destination": "skills/proposal-writer/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 299
+  },
+  {
+    "name": "scope-of-work",
+    "category": "business",
+    "source": "skills/business/scope-of-work/SKILL.md",
+    "destination": "skills/scope-of-work/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 370
+  },
+  {
+    "name": "sop-builder",
+    "category": "business",
+    "source": "skills/business/sop-builder/SKILL.md",
+    "destination": "skills/sop-builder/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 307
+  },
+  {
+    "name": "compress",
+    "category": "core",
+    "source": "skills/compress/SKILL.md",
+    "destination": "skills/compress/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      "CC session",
+      "Claude",
+      "Claude Code"
+    ],
+    "resources_copied": [],
+    "line_count": 121
+  },
+  {
+    "name": "blog-post",
+    "category": "content",
+    "source": "skills/content/blog-post/SKILL.md",
+    "destination": "skills/blog-post/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 251
+  },
+  {
+    "name": "email-sequence",
+    "category": "content",
+    "source": "skills/content/email-sequence/SKILL.md",
+    "destination": "skills/email-sequence/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 411
+  },
+  {
+    "name": "landing-page-copy",
+    "category": "content",
+    "source": "skills/content/landing-page-copy/SKILL.md",
+    "destination": "skills/landing-page-copy/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 316
+  },
+  {
+    "name": "newsletter",
+    "category": "content",
+    "source": "skills/content/newsletter/SKILL.md",
+    "destination": "skills/newsletter/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 242
+  },
+  {
+    "name": "product-description",
+    "category": "content",
+    "source": "skills/content/product-description/SKILL.md",
+    "destination": "skills/product-description/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 273
+  },
+  {
+    "name": "tiktok-script",
+    "category": "content",
+    "source": "skills/content/tiktok-script/SKILL.md",
+    "destination": "skills/tiktok-script/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 250
+  },
+  {
+    "name": "twitter-thread",
+    "category": "content",
+    "source": "skills/content/twitter-thread/SKILL.md",
+    "destination": "skills/twitter-thread/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 212
+  },
+  {
+    "name": "youtube-script",
+    "category": "content",
+    "source": "skills/content/youtube-script/SKILL.md",
+    "destination": "skills/youtube-script/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 356
+  },
+  {
+    "name": "ci-cd-pipeline",
+    "category": "deployment",
+    "source": "skills/deployment/ci-cd-pipeline/SKILL.md",
+    "destination": "skills/ci-cd-pipeline/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 481
+  },
+  {
+    "name": "docker-setup",
+    "category": "deployment",
+    "source": "skills/deployment/docker-setup/SKILL.md",
+    "destination": "skills/docker-setup/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 578
+  },
+  {
+    "name": "domain-ssl",
+    "category": "deployment",
+    "source": "skills/deployment/domain-ssl/SKILL.md",
+    "destination": "skills/domain-ssl/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 271
+  },
+  {
+    "name": "hetzner-setup",
+    "category": "deployment",
+    "source": "skills/deployment/hetzner-setup/SKILL.md",
+    "destination": "skills/hetzner-setup/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 551
+  },
+  {
+    "name": "netlify-deploy",
+    "category": "deployment",
+    "source": "skills/deployment/netlify-deploy/SKILL.md",
+    "destination": "skills/netlify-deploy/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 247
+  },
+  {
+    "name": "railway-deploy",
+    "category": "deployment",
+    "source": "skills/deployment/railway-deploy/SKILL.md",
+    "destination": "skills/railway-deploy/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 188
+  },
+  {
+    "name": "api-designer",
+    "category": "development",
+    "source": "skills/development/api-designer/SKILL.md",
+    "destination": "skills/api-designer/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 517
+  },
+  {
+    "name": "changelog-generator",
+    "category": "development",
+    "source": "skills/development/changelog-generator/SKILL.md",
+    "destination": "skills/changelog-generator/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 123
+  },
+  {
+    "name": "code-reviewer",
+    "category": "development",
+    "source": "skills/development/code-reviewer/SKILL.md",
+    "destination": "skills/code-reviewer/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 299
+  },
+  {
+    "name": "mentor",
+    "category": "development",
+    "source": "skills/development/mentor/SKILL.md",
+    "destination": "skills/mentor/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 154
+  },
+  {
+    "name": "migration-planner",
+    "category": "development",
+    "source": "skills/development/migration-planner/SKILL.md",
+    "destination": "skills/migration-planner/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 420
+  },
+  {
+    "name": "performance-audit",
+    "category": "development",
+    "source": "skills/development/performance-audit/SKILL.md",
+    "destination": "skills/performance-audit/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 468
+  },
+  {
+    "name": "refactor-planner",
+    "category": "development",
+    "source": "skills/development/refactor-planner/SKILL.md",
+    "destination": "skills/refactor-planner/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 305
+  },
+  {
+    "name": "test-writer",
+    "category": "development",
+    "source": "skills/development/test-writer/SKILL.md",
+    "destination": "skills/test-writer/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 462
+  },
+  {
+    "name": "webapp-testing",
+    "category": "development",
+    "source": "skills/development/webapp-testing/SKILL.md",
+    "destination": "skills/webapp-testing/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 205
+  },
+  {
+    "name": "diary",
+    "category": "core",
+    "source": "skills/diary/SKILL.md",
+    "destination": "skills/diary/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      "$MEMSTACK_PATH",
+      ".claude",
+      "CC session",
+      "Claude",
+      "Claude Code",
+      "PostToolUse",
+      "PowerShell",
+      "PreToolUse",
+      "SessionStart",
+      "memstack-db.py"
+    ],
+    "resources_copied": [],
+    "line_count": 200
+  },
+  {
+    "name": "echo",
+    "category": "core",
+    "source": "skills/echo/SKILL.md",
+    "destination": "skills/echo/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      "$MEMSTACK_PATH",
+      ".claude",
+      "CC session",
+      "Claude",
+      "memstack-db.py"
+    ],
+    "resources_copied": [
+      "UPGRADE_PLAN.md",
+      "index-sessions.py",
+      "search.py"
+    ],
+    "line_count": 136
+  },
+  {
+    "name": "familiar",
+    "category": "core",
+    "source": "skills/familiar/SKILL.md",
+    "destination": "skills/familiar/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      "$MEMSTACK_PATH",
+      "CC session"
+    ],
+    "resources_copied": [],
+    "line_count": 59
+  },
+  {
+    "name": "forge",
+    "category": "core",
+    "source": "skills/forge/SKILL.md",
+    "destination": "skills/forge/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      "$MEMSTACK_PATH"
+    ],
+    "resources_copied": [],
+    "line_count": 67
+  },
+  {
+    "name": "governor",
+    "category": "core",
+    "source": "skills/governor/SKILL.md",
+    "destination": "skills/governor/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      "Claude"
+    ],
+    "resources_copied": [],
+    "line_count": 160
+  },
+  {
+    "name": "grimoire",
+    "category": "core",
+    "source": "skills/grimoire/SKILL.md",
+    "destination": "skills/grimoire/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      "Claude"
+    ],
+    "resources_copied": [],
+    "line_count": 63
+  },
+  {
+    "name": "humanize",
+    "category": "core",
+    "source": "skills/humanize/SKILL.md",
+    "destination": "skills/humanize/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 106
+  },
+  {
+    "name": "competitor-analysis",
+    "category": "marketing",
+    "source": "skills/marketing/competitor-analysis/SKILL.md",
+    "destination": "skills/competitor-analysis/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 264
+  },
+  {
+    "name": "facebook-ad",
+    "category": "marketing",
+    "source": "skills/marketing/facebook-ad/SKILL.md",
+    "destination": "skills/facebook-ad/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 309
+  },
+  {
+    "name": "google-ad",
+    "category": "marketing",
+    "source": "skills/marketing/google-ad/SKILL.md",
+    "destination": "skills/google-ad/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 278
+  },
+  {
+    "name": "launch-plan",
+    "category": "marketing",
+    "source": "skills/marketing/launch-plan/SKILL.md",
+    "destination": "skills/launch-plan/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 284
+  },
+  {
+    "name": "lead-magnet",
+    "category": "marketing",
+    "source": "skills/marketing/lead-magnet/SKILL.md",
+    "destination": "skills/lead-magnet/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 326
+  },
+  {
+    "name": "marketplace-submit",
+    "category": "marketing",
+    "source": "skills/marketing/marketplace-submit/SKILL.md",
+    "destination": "skills/marketplace-submit/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      "CC session",
+      "Claude",
+      "Claude Code",
+      "MCP"
+    ],
+    "resources_copied": [],
+    "line_count": 175
+  },
+  {
+    "name": "pricing-strategy",
+    "category": "marketing",
+    "source": "skills/marketing/pricing-strategy/SKILL.md",
+    "destination": "skills/pricing-strategy/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 266
+  },
+  {
+    "name": "sales-funnel",
+    "category": "marketing",
+    "source": "skills/marketing/sales-funnel/SKILL.md",
+    "destination": "skills/sales-funnel/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 265
+  },
+  {
+    "name": "webinar-script",
+    "category": "marketing",
+    "source": "skills/marketing/webinar-script/SKILL.md",
+    "destination": "skills/webinar-script/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 387
+  },
+  {
+    "name": "feature-spec",
+    "category": "product",
+    "source": "skills/product/feature-spec/SKILL.md",
+    "destination": "skills/feature-spec/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 285
+  },
+  {
+    "name": "feedback-analyzer",
+    "category": "product",
+    "source": "skills/product/feedback-analyzer/SKILL.md",
+    "destination": "skills/feedback-analyzer/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 288
+  },
+  {
+    "name": "mvp-scoper",
+    "category": "product",
+    "source": "skills/product/mvp-scoper/SKILL.md",
+    "destination": "skills/mvp-scoper/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 278
+  },
+  {
+    "name": "prd-writer",
+    "category": "product",
+    "source": "skills/product/prd-writer/SKILL.md",
+    "destination": "skills/prd-writer/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 280
+  },
+  {
+    "name": "roadmap-builder",
+    "category": "product",
+    "source": "skills/product/roadmap-builder/SKILL.md",
+    "destination": "skills/roadmap-builder/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 308
+  },
+  {
+    "name": "user-story-generator",
+    "category": "product",
+    "source": "skills/product/user-story-generator/SKILL.md",
+    "destination": "skills/user-story-generator/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 282
+  },
+  {
+    "name": "project",
+    "category": "core",
+    "source": "skills/project/SKILL.md",
+    "destination": "skills/project/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      "$MEMSTACK_PATH",
+      "CC session",
+      "memstack-db.py"
+    ],
+    "resources_copied": [],
+    "line_count": 80
+  },
+  {
+    "name": "quill",
+    "category": "core",
+    "source": "skills/quill/SKILL.md",
+    "destination": "skills/quill/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      "$MEMSTACK_PATH",
+      "memstack-db.py"
+    ],
+    "resources_copied": [],
+    "line_count": 65
+  },
+  {
+    "name": "scan",
+    "category": "core",
+    "source": "skills/scan/SKILL.md",
+    "destination": "skills/scan/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 66
+  },
+  {
+    "name": "api-audit",
+    "category": "security",
+    "source": "skills/security/api-audit/SKILL.md",
+    "destination": "skills/api-audit/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 358
+  },
+  {
+    "name": "csp-headers",
+    "category": "security",
+    "source": "skills/security/csp-headers/SKILL.md",
+    "destination": "skills/csp-headers/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 424
+  },
+  {
+    "name": "dependency-audit",
+    "category": "security",
+    "source": "skills/security/dependency-audit/SKILL.md",
+    "destination": "skills/dependency-audit/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 344
+  },
+  {
+    "name": "owasp-top10",
+    "category": "security",
+    "source": "skills/security/owasp-top10/SKILL.md",
+    "destination": "skills/owasp-top10/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 432
+  },
+  {
+    "name": "rls-checker",
+    "category": "security",
+    "source": "skills/security/rls-checker/SKILL.md",
+    "destination": "skills/rls-checker/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 258
+  },
+  {
+    "name": "rls-guardian",
+    "category": "security",
+    "source": "skills/security/rls-guardian/SKILL.md",
+    "destination": "skills/rls-guardian/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 420
+  },
+  {
+    "name": "secrets-scanner",
+    "category": "security",
+    "source": "skills/security/secrets-scanner/SKILL.md",
+    "destination": "skills/secrets-scanner/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      "Claude"
+    ],
+    "resources_copied": [],
+    "line_count": 428
+  },
+  {
+    "name": "ai-search-visibility",
+    "category": "seo-geo",
+    "source": "skills/seo-geo/ai-search-visibility/SKILL.md",
+    "destination": "skills/ai-search-visibility/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      "Claude"
+    ],
+    "resources_copied": [],
+    "line_count": 332
+  },
+  {
+    "name": "keyword-research",
+    "category": "seo-geo",
+    "source": "skills/seo-geo/keyword-research/SKILL.md",
+    "destination": "skills/keyword-research/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 212
+  },
+  {
+    "name": "local-seo",
+    "category": "seo-geo",
+    "source": "skills/seo-geo/local-seo/SKILL.md",
+    "destination": "skills/local-seo/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 300
+  },
+  {
+    "name": "meta-tag-optimizer",
+    "category": "seo-geo",
+    "source": "skills/seo-geo/meta-tag-optimizer/SKILL.md",
+    "destination": "skills/meta-tag-optimizer/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 256
+  },
+  {
+    "name": "schema-markup",
+    "category": "seo-geo",
+    "source": "skills/seo-geo/schema-markup/SKILL.md",
+    "destination": "skills/schema-markup/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [
+      "references/"
+    ],
+    "line_count": 287
+  },
+  {
+    "name": "site-audit",
+    "category": "seo-geo",
+    "source": "skills/seo-geo/site-audit/SKILL.md",
+    "destination": "skills/site-audit/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      "Claude"
+    ],
+    "resources_copied": [
+      "references/",
+      "scripts/"
+    ],
+    "line_count": 275
+  },
+  {
+    "name": "shard",
+    "category": "core",
+    "source": "skills/shard/SKILL.md",
+    "destination": "skills/shard/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 80
+  },
+  {
+    "name": "sight",
+    "category": "core",
+    "source": "skills/sight/SKILL.md",
+    "destination": "skills/sight/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 76
+  },
+  {
+    "name": "state",
+    "category": "core",
+    "source": "skills/state/SKILL.md",
+    "destination": "skills/state/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      ".claude",
+      "Claude"
+    ],
+    "resources_copied": [],
+    "line_count": 114
+  },
+  {
+    "name": "token-optimization",
+    "category": "core",
+    "source": "skills/token-optimization/SKILL.md",
+    "destination": "skills/token-optimization/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      "Claude",
+      "Claude Code",
+      "MCP",
+      "claude mcp"
+    ],
+    "resources_copied": [],
+    "line_count": 364
+  },
+  {
+    "name": "verify",
+    "category": "core",
+    "source": "skills/verify/SKILL.md",
+    "destination": "skills/verify/SKILL.md",
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [],
+    "line_count": 151
+  },
+  {
+    "name": "work",
+    "category": "core",
+    "source": "skills/work/SKILL.md",
+    "destination": "skills/work/SKILL.md",
+    "needs_review": true,
+    "review_reasons": [
+      "$MEMSTACK_PATH",
+      ".claude",
+      "Claude",
+      "memstack-db.py"
+    ],
+    "resources_copied": [],
+    "line_count": 130
+  }
+]
