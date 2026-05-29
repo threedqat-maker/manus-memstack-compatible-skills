@@ -30,7 +30,7 @@ cat public/robots.txt 2>/dev/null | grep -i "gptbot\|chatgpt\|perplexity\|claude
 | GPTBot | OpenAI | `GPTBot` | ChatGPT search, training |
 | ChatGPT-User | OpenAI | `ChatGPT-User` | ChatGPT browsing feature |
 | PerplexityBot | Perplexity | `PerplexityBot` | Perplexity search |
-| ManusBot | Anthropic | `ManusBot` | Manus web access |
+| ManusBot | Manus | `ManusBot` | Manus web access |
 | Google-Extended | Google | `Google-Extended` | Gemini, AI Overview |
 | CCBot | Common Crawl | `CCBot` | Open dataset used by many AI |
 | Bytespider | ByteDance | `Bytespider` | TikTok/AI training |
