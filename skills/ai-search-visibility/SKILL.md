@@ -3,14 +3,12 @@ name: ai-search-visibility
 description: "Use when the user asks for 'AI search', 'AI visibility', 'ChatGPT ranking', 'Perplexity optimization', 'GEO', 'generative engine optimization', or needs to optimize content for AI-powered search engines and LLM citations. Do not use for traditional SEO audits or Google Ads."
 ---
 
-> **Conversion status: Needs manual review.** This skill was converted from a Claude/MemStack skill, but it contains runtime-specific assumptions that may not apply directly in Manus. Review before relying on it in production.
->
-> **Review triggers:** Claude.
+> **Conversion status: Manus-ready draft.** This skill was reviewed and updated with verified AI crawler names, Manus-neutral wording, and local reference resources. Re-check crawler documentation during real client work because AI crawler policies change frequently.
 
 > **Original source:** `cwinvestments/memstack/skills/seo-geo/ai-search-visibility/SKILL.md`.
 
 #  AI Search Visibility — Optimizing for AI search engines...
-*Evaluates and optimizes content for citation by AI search engines (ChatGPT, Perplexity, Google AI Overview, Manus) — checking crawler access, content structure, llms.txt, and AI-friendly patterns.*
+*Evaluates and optimizes content for citation by AI search engines (ChatGPT Search, Perplexity, Google AI Overview, Claude Search, and similar AI answer engines) — checking crawler access, content structure, llms.txt, and AI-friendly patterns.*
 
 ## Protocol
 
@@ -20,46 +18,60 @@ Verify which AI crawlers can access your site:
 
 ```bash
 # Check robots.txt for AI bot rules
-cat public/robots.txt 2>/dev/null | grep -i "gptbot\|chatgpt\|perplexity\|ManusBot\|Manus\|cohere\|google-extended\|ccbot\|bytespider"
+cat public/robots.txt 2>/dev/null | grep -i "oai-searchbot\|gptbot\|chatgpt-user\|perplexitybot\|perplexity-user\|claudebot\|claude-user\|claude-searchbot\|google-extended\|ccbot\|bytespider\|cohere-ai"
 ```
 
-**Known AI crawler user agents:**
+**Known AI crawler and fetcher user agents:**
 
-| Bot | Company | User-Agent | Purpose |
-|-----|---------|-----------|---------|
-| GPTBot | OpenAI | `GPTBot` | ChatGPT search, training |
-| ChatGPT-User | OpenAI | `ChatGPT-User` | ChatGPT browsing feature |
-| PerplexityBot | Perplexity | `PerplexityBot` | Perplexity search |
-| ManusBot | Manus | `ManusBot` | Manus web access |
-| Google-Extended | Google | `Google-Extended` | Gemini, AI Overview |
-| CCBot | Common Crawl | `CCBot` | Open dataset used by many AI |
-| Bytespider | ByteDance | `Bytespider` | TikTok/AI training |
-| Cohere-ai | Cohere | `cohere-ai` | Cohere models |
+| Bot | Company | User-Agent | Primary purpose | Suggested visibility default |
+|-----|---------|-----------|-----------------|------------------------------|
+| OAI-SearchBot | OpenAI | `OAI-SearchBot` | ChatGPT Search indexing and surfacing websites in search answers | Allow when AI search visibility is desired |
+| GPTBot | OpenAI | `GPTBot` | OpenAI model-training crawl | Optional; allow only if training use is acceptable |
+| ChatGPT-User | OpenAI | `ChatGPT-User` | User-triggered browsing or Custom GPT actions | Usually allow for citation/access; note that user-triggered fetches may not follow robots.txt in the same way as crawlers |
+| PerplexityBot | Perplexity | `PerplexityBot` | Perplexity search indexing and result surfacing | Allow when Perplexity visibility is desired |
+| Perplexity-User | Perplexity | `Perplexity-User` | User-triggered Perplexity fetches | Usually allow for user-directed answer access |
+| Claude-SearchBot | Anthropic | `Claude-SearchBot` | Claude search indexing and result quality | Allow when Claude search visibility is desired |
+| Claude-User | Anthropic | `Claude-User` | User-triggered Claude web access | Usually allow for user-directed answer access |
+| ClaudeBot | Anthropic | `ClaudeBot` | Anthropic model-training crawl | Optional; allow only if training use is acceptable |
+| Google-Extended | Google | `Google-Extended` | Controls whether site content helps improve Gemini and Vertex AI models | Optional; this is not the same as standard Google Search crawling |
+| CCBot | Common Crawl | `CCBot` | Open web dataset used by many AI systems | Optional; allow only if broad dataset inclusion is acceptable |
+| Bytespider | ByteDance | `Bytespider` | ByteDance/TikTok crawling and AI-related indexing/training | Optional |
+| Cohere-ai | Cohere | `cohere-ai` | Cohere model/data crawler where observed | Optional |
 
 **Recommended robots.txt strategy:**
 
-```
-# Allow AI crawlers for search visibility
-# (Block only if you have specific content protection concerns)
+The safest default for AI visibility is to **allow search/indexing crawlers and user-triggered fetchers**, while making an explicit policy decision about model-training crawlers. This preserves visibility in AI answer engines without automatically granting every training crawler access.
 
-# Allow all AI search bots
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
+```txt
+# AI search visibility: allow search/indexing crawlers
+User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: ManusBot
+User-agent: Claude-SearchBot
 Allow: /
 
-User-agent: Google-Extended
+# Optional: allow user-triggered fetchers for answers and citations
+User-agent: ChatGPT-User
 Allow: /
 
-# Block paths you don't want AI to index
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# Optional: restrict model-training crawlers while preserving search visibility
 User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+# Always block private or low-value paths for all crawlers
+User-agent: *
 Disallow: /admin
 Disallow: /api
 Disallow: /dashboard
@@ -69,10 +81,10 @@ Disallow: /dashboard
 
 | Goal | Strategy | robots.txt |
 |------|----------|-----------|
-| Maximum AI visibility | Allow all AI bots | `Allow: /` for each |
-| Selective visibility | Allow search bots, block training bots | Allow ChatGPT-User, block GPTBot |
-| Content protection | Block all AI crawlers | `Disallow: /` for each |
-| Balanced | Allow crawling, block specific paths | Allow root, disallow sensitive paths |
+| Maximum AI search visibility | Allow search/indexing bots and user-triggered fetchers | `Allow: /` for `OAI-SearchBot`, `PerplexityBot`, `Claude-SearchBot`, `ChatGPT-User`, `Perplexity-User`, and `Claude-User` |
+| Search visibility without training use | Allow search bots; block model-training bots | Allow `OAI-SearchBot`, `PerplexityBot`, `Claude-SearchBot`; block `GPTBot` and `ClaudeBot` |
+| Content protection | Block most AI crawlers and fetchers | `Disallow: /` for each crawler/fetcher after legal/business review |
+| Balanced | Allow root content but block sensitive paths | Use `Allow: /` for target bots and `Disallow` private paths globally |
 
 ### Step 2: Analyze Content for AI Citation Likelihood
 
@@ -190,7 +202,7 @@ Princeton's 2023 GEO study (Aggarwal et al., arXiv:2311.09735, accepted at KDD 2
 
 **Reference:** Aggarwal, P., Murahari, V., Rajpurohit, T., Kalyan, A., Narasimhan, K., & Deshpande, A. (2023). *GEO: Generative Engine Optimization.* arXiv:2311.09735. Accepted at KDD 2024 (30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining).
 
-**Platform-specific tuning:** For how each AI search engine (ChatGPT, Perplexity, Google AI Overview, Copilot, Manus) actually ranks and cites content — with measured stats on citation share, freshness windows, and per-platform format preferences — see [`../site-audit/references/platform-ranking-factors.md`](../site-audit/references/platform-ranking-factors.md). The Princeton methods above are universal; the platform reference tells you where to spend effort first based on your audience.
+**Platform-specific tuning:** For how each AI search engine (ChatGPT Search, Perplexity, Google AI Overview, Copilot, Claude Search, and similar answer engines) ranks and cites content — including citation share, freshness windows, and per-platform format preferences — see [`references/platform-ranking-factors.md`](references/platform-ranking-factors.md). The Princeton methods above are universal; the platform reference tells you where to spend effort first based on your audience.
 
 ### Step 4: Add llms.txt File
 
@@ -272,7 +284,7 @@ Track whether your content appears in AI search results:
 
 ```bash
 # Check server logs for AI bot traffic (if you have access)
-grep -i "gptbot\|perplexitybot\|claudebot\|chatgpt" access.log | wc -l
+grep -i "oai-searchbot\|gptbot\|chatgpt-user\|perplexitybot\|perplexity-user\|claudebot\|claude-user\|claude-searchbot" access.log | wc -l
 
 # Check Vercel/Netlify analytics for AI referral traffic
 # Look for referrers from: perplexity.ai, chatgpt.com, bing.com (Copilot)
@@ -299,10 +311,12 @@ Pages analyzed: [count]
 Overall AI readiness: [X/100]
 
 Crawler access:
-  GPTBot:         [ Allowed /  Blocked / ️ No rule (default allow)]
-  PerplexityBot:  [ /  / ️]
-  ManusBot:      [ /  / ️]
-  Google-Extended: [ /  / ️]
+  OAI-SearchBot:    [ Allowed / Blocked / No rule (default allow)]
+  GPTBot:           [ Allowed / Blocked / No rule (default allow)]
+  PerplexityBot:    [ Allowed / Blocked / No rule (default allow)]
+  Claude-SearchBot: [ Allowed / Blocked / No rule (default allow)]
+  ClaudeBot:        [ Allowed / Blocked / No rule (default allow)]
+  Google-Extended:  [ Allowed / Blocked / No rule (default allow)]
 
 Content structure:
   Direct definitions:    [count] pages have clear opening definitions

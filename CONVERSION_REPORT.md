@@ -5,13 +5,14 @@ This report covers the conversion of the 84 public/free MemStack skills into Man
 | Metric | Count |
 |---|---:|
 | Converted skills | 84 |
-| Marked needs review | 15 |
-| Resource groups/files copied | 6 |
+| Marked needs review | 14 |
+| Resource groups/files copied | 7 |
 
 ## Manual Review Updates
 
 | Skill | Status | Change made |
 |---|---|---|
+| `ai-search-visibility` | Manus-ready draft | Reviewed on 2026-05-29: updated AI crawler table and robots.txt examples with verified OpenAI, Perplexity, and Anthropic crawler/fetcher names; removed questionable Manus/Mabus bot references; copied platform-ranking-factors.md into the skill references folder. |
 | `governor` | Manus-ready draft | Reviewed on 2026-05-29: replaced Claude-specific context source wording with Manus-neutral project-context wording. |
 | `secrets-scanner` | Manus-ready draft | Reviewed on 2026-05-29: removed CLAUDE.md documentation scan and rewrote MemStack Pro hook coverage as optional generic pre-commit/pre-push secret scanning guidance. |
 
@@ -29,7 +30,6 @@ This report covers the conversion of the 84 public/free MemStack skills into Man
 | `marketplace-submit` | marketing | CC session, Claude, Claude Code, MCP |
 | `project` | core | $MEMSTACK_PATH, CC session, memstack-db.py |
 | `quill` | core | $MEMSTACK_PATH, memstack-db.py |
-| `ai-search-visibility` | seo-geo | Claude |
 | `site-audit` | seo-geo | Claude |
 | `state` | core | .claude, Claude |
 | `token-optimization` | core | Claude, Claude Code, MCP, claude mcp |
@@ -111,7 +111,7 @@ This report covers the conversion of the 84 public/free MemStack skills into Man
 | `rls-checker` | security | Manus-ready draft | `skills/security/rls-checker/SKILL.md` | None |
 | `rls-guardian` | security | Manus-ready draft | `skills/security/rls-guardian/SKILL.md` | None |
 | `secrets-scanner` | security | Manus-ready draft | `skills/security/secrets-scanner/SKILL.md` | None |
-| `ai-search-visibility` | seo-geo | Needs review | `skills/seo-geo/ai-search-visibility/SKILL.md` | None |
+| `ai-search-visibility` | seo-geo | Manus-ready draft | `skills/seo-geo/ai-search-visibility/SKILL.md` | references/ |
 | `keyword-research` | seo-geo | Manus-ready draft | `skills/seo-geo/keyword-research/SKILL.md` | None |
 | `local-seo` | seo-geo | Manus-ready draft | `skills/seo-geo/local-seo/SKILL.md` | None |
 | `meta-tag-optimizer` | seo-geo | Manus-ready draft | `skills/seo-geo/meta-tag-optimizer/SKILL.md` | None |

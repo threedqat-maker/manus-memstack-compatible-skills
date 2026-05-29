@@ -776,12 +776,13 @@
     "category": "seo-geo",
     "source": "skills/seo-geo/ai-search-visibility/SKILL.md",
     "destination": "skills/ai-search-visibility/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      "Claude"
+    "needs_review": false,
+    "review_reasons": [],
+    "resources_copied": [
+      "references/"
     ],
-    "resources_copied": [],
-    "line_count": 332
+    "line_count": 332,
+    "manual_review_note": "Reviewed on 2026-05-29: updated AI crawler table and robots.txt examples with verified OpenAI, Perplexity, and Anthropic crawler/fetcher names; removed questionable Manus/Mabus bot references; copied platform-ranking-factors.md into the skill references folder."
   },
   {
     "name": "keyword-research",
