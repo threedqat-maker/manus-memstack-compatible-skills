@@ -20,7 +20,7 @@ Verify which AI crawlers can access your site:
 
 ```bash
 # Check robots.txt for AI bot rules
-cat public/robots.txt 2>/dev/null | grep -i "gptbot\|chatgpt\|perplexity\|claude\|anthropic\|cohere\|google-extended\|ccbot\|bytespider"
+cat public/robots.txt 2>/dev/null | grep -i "gptbot\|chatgpt\|perplexity\|ManusBot\|Manus\|cohere\|google-extended\|ccbot\|bytespider"
 ```
 
 **Known AI crawler user agents:**
