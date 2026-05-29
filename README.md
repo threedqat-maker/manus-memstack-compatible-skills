@@ -1,6 +1,6 @@
 # Manus MemStack Skills
 
-This repository contains a Manus-compatible conversion of the **84 public/free skills** from [`cwinvestments/memstack`](https://github.com/cwinvestments/memstack). The original project is MIT-licensed; the original license is preserved in `LICENSE`.
+This repository contains a Manus-compatible conversion of some of the **84 public/free skills** from [`cwinvestments/memstack`](https://github.com/cwinvestments/memstack). The original project is MIT-licensed; the original license is preserved in `LICENSE`.
 
 The conversion intentionally excludes Claude runtime infrastructure such as `.claude/`, hooks, local MCP loader configuration, dashboard files, and non-public Pro skills. Skills that still contain Claude/MemStack-specific assumptions are marked **Needs manual review** at the top of their `SKILL.md` file and listed in `CONVERSION_REPORT.md`.
 
