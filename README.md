@@ -19,7 +19,7 @@ skills/<skill-name>/
 | Metric | Count |
 |---|---:|
 | Converted public/free skills | 84 |
-| Skills marked needs review | 16 |
+| Skills marked needs review | 15 |
 | Bundled resource groups/files copied | 6 |
 
 ## Practical note

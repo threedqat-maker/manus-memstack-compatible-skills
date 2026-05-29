@@ -3,9 +3,7 @@ name: governor
 description: "Use when the user asks for 'new project', 'project init', 'what tier', 'scope', or discusses project maturity, complexity budget, or what's appropriate to build."
 ---
 
-> **Conversion status: Needs manual review.** This skill was converted from a Claude/MemStack skill, but it contains runtime-specific assumptions that may not apply directly in Manus. Review before relying on it in production.
->
-> **Review triggers:** Claude.
+> **Conversion status: Manus-ready draft.** This skill was reviewed and updated to remove the isolated Claude-specific project-context reference. Test on a representative project before relying on it as the only scope-governance control.
 
 > **Original source:** `cwinvestments/memstack/skills/governor/SKILL.md`.
 
@@ -151,7 +149,7 @@ Always defer to the user if they override. Governor advises, doesn't block.
 
 ## Inputs
 - Project name and context
-- Current tier (from user, STATE.md, or project CLAUDE.md)
+- Current tier from the user, project state files, README, repository documentation, or project-specific instruction files
 - Proposed work scope
 
 ## Outputs

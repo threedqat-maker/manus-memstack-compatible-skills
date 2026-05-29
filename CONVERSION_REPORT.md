@@ -5,14 +5,15 @@ This report covers the conversion of the 84 public/free MemStack skills into Man
 | Metric | Count |
 |---|---:|
 | Converted skills | 84 |
-| Marked needs review | 16 |
+| Marked needs review | 15 |
 | Resource groups/files copied | 6 |
 
 ## Manual Review Updates
 
 | Skill | Status | Change made |
 |---|---|---|
-| `secrets-scanner` | Manus-ready draft | Removed `CLAUDE.md` from the documentation scan command and rewrote MemStack Pro hook coverage as optional generic pre-commit/pre-push secret scanning guidance. |
+| `governor` | Manus-ready draft | Reviewed on 2026-05-29: replaced Claude-specific context source wording with Manus-neutral project-context wording. |
+| `secrets-scanner` | Manus-ready draft | Reviewed on 2026-05-29: removed CLAUDE.md documentation scan and rewrote MemStack Pro hook coverage as optional generic pre-commit/pre-push secret scanning guidance. |
 
 ## Skills Marked Needs Review
 
@@ -24,7 +25,6 @@ This report covers the conversion of the 84 public/free MemStack skills into Man
 | `echo` | core | $MEMSTACK_PATH, .claude, CC session, Claude, memstack-db.py |
 | `familiar` | core | $MEMSTACK_PATH, CC session |
 | `forge` | core | $MEMSTACK_PATH |
-| `governor` | core | Claude |
 | `grimoire` | core | Claude |
 | `marketplace-submit` | marketing | CC session, Claude, Claude Code, MCP |
 | `project` | core | $MEMSTACK_PATH, CC session, memstack-db.py |
@@ -83,7 +83,7 @@ This report covers the conversion of the 84 public/free MemStack skills into Man
 | `echo` | core | Needs review | `skills/echo/SKILL.md` | UPGRADE_PLAN.md, index-sessions.py, search.py |
 | `familiar` | core | Needs review | `skills/familiar/SKILL.md` | None |
 | `forge` | core | Needs review | `skills/forge/SKILL.md` | None |
-| `governor` | core | Needs review | `skills/governor/SKILL.md` | None |
+| `governor` | core | Manus-ready draft | `skills/governor/SKILL.md` | None |
 | `grimoire` | core | Needs review | `skills/grimoire/SKILL.md` | None |
 | `humanize` | core | Manus-ready draft | `skills/humanize/SKILL.md` | None |
 | `competitor-analysis` | marketing | Manus-ready draft | `skills/marketing/competitor-analysis/SKILL.md` | None |

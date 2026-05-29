@@ -480,12 +480,11 @@
     "category": "core",
     "source": "skills/governor/SKILL.md",
     "destination": "skills/governor/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      "Claude"
-    ],
+    "needs_review": false,
+    "review_reasons": [],
     "resources_copied": [],
-    "line_count": 160
+    "line_count": 160,
+    "manual_review_note": "Reviewed on 2026-05-29: replaced Claude-specific context source wording with Manus-neutral project-context wording."
   },
   {
     "name": "grimoire",
