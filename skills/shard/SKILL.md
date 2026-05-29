@@ -10,7 +10,9 @@ description: "Use when the user asks for 'shard this', 'split file', or when wor
 #  Shard — Refactoring Large File...
 *Split monolithic files into focused, maintainable modules.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

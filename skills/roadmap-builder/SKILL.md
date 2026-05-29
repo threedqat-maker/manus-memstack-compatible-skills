@@ -10,7 +10,9 @@ description: "Use when the user asks for 'roadmap', 'product roadmap', 'quarterl
 # Roadmap Builder — Building product roadmap...
 *Creates a strategic product roadmap in Now/Next/Later format with quarterly themes, milestones, dependency mapping, resource allocation, and stakeholder communication templates.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

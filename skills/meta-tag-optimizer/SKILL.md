@@ -10,6 +10,23 @@ description: "Use when the user asks for 'meta tags', 'title tag', 'meta descrip
 # ️ Meta Tag Optimizer — Scanning and optimizing page meta tags...
 *Scans all pages for existing meta tags, identifies issues, and generates optimized replacements — titles, descriptions, Open Graph, canonical URLs, and robots directives.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'meta tags', 'title tag', 'meta description', 'optimize meta', 'SERP preview', or needs to write or optimize HTML meta tags for better search visibility and click-through rates. | schema markup or full site audits. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "Same meta description on every page" | Duplicate descriptions get ignored by Google. Each page needs unique, relevant meta. |
+| "Title = just the page name" | "About" tells Google nothing. "About [Company] - [Key Differentiator]" ranks. |
+| "OG tags are optional" | Without og:image, your shared links look broken on social. No image = no clicks. |
+| "Canonical URLs don't matter" | Duplicate content splits ranking signals. Canonical tags consolidate authority to one URL. |
+| "Longer titles rank better" | Google truncates after ~60 chars. Truncated titles look unprofessional and lose clicks. |
+
 ## Protocol
 
 ### Step 1: Scan All Pages

@@ -10,6 +10,14 @@ description: "Use when the user asks for 'Docker', 'Dockerfile', 'docker-compose
 #  Docker Setup — Container Configuration Generator
 *Analyze a project and generate optimized Dockerfiles, docker-compose configs, and deployment-ready container setups with health checks and volume management.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'Docker', 'Dockerfile', 'docker-compose', 'containerize', 'docker-setup', or needs to containerize an application with optimized Docker images and compose configurations. | serverless or static site deployments. |
+
 ## Protocol
 
 ### Step 1: Gather Inputs

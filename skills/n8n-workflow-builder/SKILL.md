@@ -10,7 +10,9 @@ description: "Use when the user asks for 'n8n workflow', 'build a workflow', 'au
 # n8n Workflow Builder — Designing automation workflow...
 *Designs visual n8n workflows with trigger selection, node mapping, data transformations, error handling, and webhook integration.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

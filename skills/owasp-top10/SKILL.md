@@ -10,7 +10,9 @@ description: "Use when the user asks for 'OWASP audit', 'OWASP top 10', 'securit
 # ️ OWASP Top 10 — Running Full Vulnerability Assessment...
 *Audit a web application against the OWASP Top 10 (2021) vulnerability categories with actionable findings and remediation.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

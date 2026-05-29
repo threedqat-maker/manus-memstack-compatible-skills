@@ -10,7 +10,9 @@ description: "Use when the user asks for 'MVP', 'minimum viable product', 'scope
 # MVP Scoper — Scoping minimum viable product...
 *Defines the smallest buildable product that validates a core hypothesis using feature triage, effort/impact scoring, a 2-week sprint scope, and success criteria.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

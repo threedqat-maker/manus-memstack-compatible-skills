@@ -10,7 +10,9 @@ description: "Use when the user asks for 'API integration', 'connect APIs', 'syn
 # API Integration — Building system connector...
 *Develops system-to-system connectors with REST/GraphQL patterns, authentication flows, rate limit handling, data mapping, error recovery, and SDK wrapper generation.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

@@ -10,6 +10,23 @@ description: "Use when the user asks for 'create SOP', 'write SOP', 'standard op
 #  SOP Builder — Documenting standard operating procedure...
 *Generates a structured Standard Operating Procedure with numbered steps, prerequisites, decision points, verification checkpoints, rollback steps, and time estimates.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'create SOP', 'write SOP', 'standard operating procedure', 'document process', 'process documentation', 'runbook', 'playbook', or is creating step-by-step documentation for a repeatable process. | project proposals or scope documents. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "The steps are obvious" | What's obvious to you is opaque to a new team member at 2 AM. Write every step. |
+| "Just follow the README" | READMEs explain concepts. SOPs give exact actions in exact order. Different purpose. |
+| "We'll remember the edge cases" | You won't. Decision points and rollback steps are the whole point of an SOP. |
+| "This process never changes" | Every process changes. Version numbers and last-updated dates prevent stale docs from causing outages. |
+| "Anyone can figure out if it worked" | Explicit verification checkpoints ("you should see X") catch failures before they cascade. |
+
 ## Protocol
 
 ### Step 1: Identify the Process

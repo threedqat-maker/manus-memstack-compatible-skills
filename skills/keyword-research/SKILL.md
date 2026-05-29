@@ -10,6 +10,23 @@ description: "Use when the user asks for 'keyword research', 'find keywords', 'k
 #  Keyword Research — Identifying target keywords and content gaps...
 *Analyzes the niche, existing content, and competitor landscape to produce a prioritized keyword map with search intent, difficulty estimates, and page assignments.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'keyword research', 'find keywords', 'keyword strategy', 'search terms', 'keyword opportunities', or needs to identify target keywords with search volume, difficulty, and content mapping. | full site audits or ad keyword groups. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "Target the highest volume keywords" | High volume = high competition. New sites rank faster on long-tail keywords with lower volume but higher intent. |
+| "One keyword per page" | Each page has a primary keyword and 3-5 semantically related keywords. Google understands topic clusters. |
+| "Keyword research is a one-time task" | Search trends shift. New competitors appear. Revisit quarterly at minimum. |
+| "We need to rank for our brand name" | You'll rank for brand terms naturally. Focus research on non-brand terms that bring new visitors. |
+| "Volume is the only metric that matters" | A keyword with 100 searches/month and high purchase intent beats 10,000 searches/month with informational intent for a product page. |
+
 ## Protocol
 
 ### Step 1: Gather Niche Details

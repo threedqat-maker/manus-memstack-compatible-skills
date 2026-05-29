@@ -10,7 +10,9 @@ description: "Use when creating or altering database tables in Supabase or Postg
 # RLS Guardian — Enforcing Row Level Security...
 *Enforces Row Level Security on every Supabase table creation, ensuring no table goes live without proper access policies. Provides 4 policy patterns, migration templates, pre-commit checks, and audit queries to find unprotected tables.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

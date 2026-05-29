@@ -10,7 +10,9 @@ description: "Use when the user asks for 'track my time', 'freelancer invoice', 
 # Freelancer Toolkit — Setting up freelancer workflows...
 *Produces time tracking sheets, invoice calculations, and project analytics for freelancers managing multiple clients.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 - Do NOT use for proposal writing (that's proposal-writer)
 - Do NOT use for scope of work documents (that's scope-of-work)

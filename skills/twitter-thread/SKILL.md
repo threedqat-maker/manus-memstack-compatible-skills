@@ -10,7 +10,9 @@ description: "Use when the user asks for 'twitter thread', 'tweet thread', 'X th
 # Twitter Thread — Writing viral thread...
 *Creates multi-tweet threads (5-15 posts) with hook formulas, narrative arc, engagement tactics, data points, CTA placement, and scheduling strategy.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

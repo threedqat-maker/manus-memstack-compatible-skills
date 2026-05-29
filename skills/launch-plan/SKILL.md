@@ -10,7 +10,9 @@ description: "Use when the user asks for 'launch plan', 'product launch', 'go-to
 # Launch Plan — Planning product launch...
 *Develops a day-by-day launch timeline with pre-launch buildup, launch week execution, post-launch optimization, channel strategy, PR outreach templates, and metrics tracking.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

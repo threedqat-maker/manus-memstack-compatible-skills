@@ -10,7 +10,9 @@ description: "Use when the user asks for 'scan for secrets', 'check for leaked k
 #  Secrets Scanner — Scanning for Exposed Credentials...
 *Scan a codebase for hardcoded secrets, leaked API keys, and credential exposure across files and git history.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

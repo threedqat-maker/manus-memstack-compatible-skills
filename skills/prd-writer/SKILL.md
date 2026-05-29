@@ -10,7 +10,9 @@ description: "Use when the user asks for 'PRD', 'product requirements', 'require
 # PRD Writer — Writing product requirements document...
 *Generates a complete engineering-ready PRD with problem statement, user personas, functional and non-functional requirements, MoSCoW prioritization, success metrics, and implementation timeline.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

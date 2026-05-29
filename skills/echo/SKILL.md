@@ -12,7 +12,9 @@ description: "Use when the user references past sessions, asks 'what did we do',
 #  Echo — Searching the Archives...
 *Recall information from past Manus sessions using semantic vector search.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status | Priority |
 |---------|--------|----------|

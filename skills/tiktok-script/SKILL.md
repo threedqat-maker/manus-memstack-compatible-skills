@@ -10,7 +10,9 @@ description: "Use when the user asks for 'TikTok script', 'TikTok video', 'Reels
 # TikTok Script — Writing short-form video script...
 *Creates timestamped scripts for TikTok, Reels, and Shorts (15-60 seconds) with hook-in-first-2-seconds, visual cues, caption text, trending audio strategy, and hashtag research.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

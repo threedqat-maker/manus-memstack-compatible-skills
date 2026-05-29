@@ -10,7 +10,9 @@ description: "Use when the user asks for 'teach me', 'explain as you go', 'mento
 # Mentor — Activating mentor mode...
 *Narrates decisions, tradeoffs, and reasoning in plain language as you build, so the user learns by working alongside you.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 - Do NOT use for post-hoc code review (that's code-reviewer)
 - Do NOT use for debugging existing bugs (debug directly)

@@ -10,7 +10,9 @@ description: "Use when the user asks for 'google ad', 'search ad', 'PPC', 'Googl
 # Google Ad — Creating Google Ads campaign...
 *Designs search and display campaigns with keyword groups, bidding strategy, responsive search ads, ad extensions, and Quality Score optimization for Google Ads.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

@@ -12,6 +12,14 @@ description: "Use when the user asks for 'update context', 'update claude', 'sav
 #  Grimoire — Updating the Knowledge Library
 *Manage and update CLAUDE.md files across all projects.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'update context', 'update claude', 'save library', or after significant project changes. | Tasks outside this skill’s stated domain, or tasks better handled by a more specific installed skill. |
+
 ## Protocol
 
 1. **Identify the target project** — use config.json to find the CLAUDE.md path

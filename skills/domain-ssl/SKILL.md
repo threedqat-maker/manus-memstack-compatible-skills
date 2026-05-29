@@ -10,6 +10,23 @@ description: "Use when the user asks for 'setup domain', 'configure DNS', 'SSL c
 #  Domain & SSL — Verifying domain, DNS, and certificate configuration...
 *Validates DNS records, SSL certificates, redirects, HSTS, and domain health across all managed properties.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'setup domain', 'configure DNS', 'SSL certificate', 'domain-ssl', 'custom domain', 'HTTPS setup', or needs to configure DNS records, SSL certificates, and custom domains for any hosting provider. | full deployment workflows. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "SSL auto-renews, I don't need to check it" | Auto-renewal fails silently when DNS changes. Verify quarterly. |
+| "DNS propagation takes 48 hours" | Most propagation happens in minutes. If it's been 2+ hours, something is misconfigured. |
+| "www and non-www both work, that's fine" | Pick one canonical URL and redirect the other. Duplicate content hurts SEO and splits analytics. |
+| "HTTPS is enough for security" | Without HSTS, the first request can still be intercepted. HSTS tells browsers to never try HTTP. |
+| "I'll check the domain when it stops working" | By then, your site is down. Monitor expiration, SSL, and DNS proactively. |
+
 ## Protocol
 
 ### Step 1: Verify DNS Records

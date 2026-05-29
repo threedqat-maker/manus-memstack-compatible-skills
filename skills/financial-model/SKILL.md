@@ -10,7 +10,9 @@ description: "Use when the user asks for 'financial model', 'projections', 'reve
 # Financial Model — Building financial projections...
 *Builds monthly revenue projections, expense forecasts, unit economics (CAC, LTV, payback), break-even analysis, cash flow tracking, and scenario modeling (best/base/worst).*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

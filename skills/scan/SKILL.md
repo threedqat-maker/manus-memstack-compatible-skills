@@ -10,7 +10,9 @@ description: "Use when the user asks for 'scan project', 'estimate', 'how much t
 #  Scan — Analyzing Project Scope...
 *Analyze a project's complexity and generate pricing recommendations.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

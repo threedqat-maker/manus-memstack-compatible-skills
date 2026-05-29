@@ -7,7 +7,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 333
+    "line_count": 333,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "content-pipeline",
@@ -17,7 +18,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 249
+    "line_count": 249,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "cron-scheduler",
@@ -27,7 +29,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 297
+    "line_count": 297,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "hosted-mcp-catalog",
@@ -43,7 +46,8 @@
       "MCP"
     ],
     "resources_copied": [],
-    "line_count": 140
+    "line_count": 140,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "n8n-workflow-builder",
@@ -53,7 +57,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 262
+    "line_count": 262,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "webhook-designer",
@@ -63,7 +68,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 322
+    "line_count": 322,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "client-onboarding",
@@ -73,7 +79,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 290
+    "line_count": 290,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "contract-template",
@@ -83,7 +90,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 272
+    "line_count": 272,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "financial-model",
@@ -93,7 +101,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 265
+    "line_count": 265,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "freelancer-toolkit",
@@ -103,7 +112,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 165
+    "line_count": 165,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "gdpr",
@@ -113,7 +123,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 263
+    "line_count": 263,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "invoice-generator",
@@ -123,7 +134,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 248
+    "line_count": 248,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "licensing",
@@ -133,7 +145,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 256
+    "line_count": 256,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "proposal-writer",
@@ -143,7 +156,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 299
+    "line_count": 299,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "scope-of-work",
@@ -153,7 +167,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 370
+    "line_count": 370,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "sop-builder",
@@ -163,7 +178,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 307
+    "line_count": 307,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "compress",
@@ -177,7 +193,8 @@
       "Claude Code"
     ],
     "resources_copied": [],
-    "line_count": 121
+    "line_count": 121,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "blog-post",
@@ -187,7 +204,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 251
+    "line_count": 251,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "email-sequence",
@@ -197,7 +215,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 411
+    "line_count": 411,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "landing-page-copy",
@@ -207,7 +226,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 316
+    "line_count": 316,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "newsletter",
@@ -217,7 +237,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 242
+    "line_count": 242,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "product-description",
@@ -227,7 +248,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 273
+    "line_count": 273,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "tiktok-script",
@@ -237,7 +259,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 250
+    "line_count": 250,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "twitter-thread",
@@ -247,7 +270,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 212
+    "line_count": 212,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "youtube-script",
@@ -257,7 +281,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 356
+    "line_count": 356,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "ci-cd-pipeline",
@@ -267,7 +292,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 481
+    "line_count": 481,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "docker-setup",
@@ -277,7 +303,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 578
+    "line_count": 578,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "domain-ssl",
@@ -287,7 +314,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 271
+    "line_count": 271,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "hetzner-setup",
@@ -297,7 +325,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 551
+    "line_count": 551,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "netlify-deploy",
@@ -307,7 +336,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 247
+    "line_count": 247,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "railway-deploy",
@@ -317,7 +347,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 188
+    "line_count": 188,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "api-designer",
@@ -327,7 +358,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 517
+    "line_count": 517,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "changelog-generator",
@@ -337,7 +369,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 123
+    "line_count": 123,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "code-reviewer",
@@ -347,7 +380,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 299
+    "line_count": 299,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "mentor",
@@ -357,7 +391,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 154
+    "line_count": 154,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "migration-planner",
@@ -367,7 +402,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 420
+    "line_count": 420,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "performance-audit",
@@ -377,7 +413,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 468
+    "line_count": 468,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "refactor-planner",
@@ -387,7 +424,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 305
+    "line_count": 305,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "test-writer",
@@ -397,7 +435,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 462
+    "line_count": 462,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "webapp-testing",
@@ -407,7 +446,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 205
+    "line_count": 205,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "diary",
@@ -428,7 +468,8 @@
       "memstack-db.py"
     ],
     "resources_copied": [],
-    "line_count": 200
+    "line_count": 200,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "echo",
@@ -448,7 +489,8 @@
       "index-sessions.py",
       "search.py"
     ],
-    "line_count": 136
+    "line_count": 136,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "familiar",
@@ -461,7 +503,8 @@
       "CC session"
     ],
     "resources_copied": [],
-    "line_count": 59
+    "line_count": 59,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "forge",
@@ -473,7 +516,8 @@
       "$MEMSTACK_PATH"
     ],
     "resources_copied": [],
-    "line_count": 67
+    "line_count": 67,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "governor",
@@ -484,7 +528,8 @@
     "review_reasons": [],
     "resources_copied": [],
     "line_count": 160,
-    "manual_review_note": "Reviewed on 2026-05-29: replaced Claude-specific context source wording with Manus-neutral project-context wording."
+    "manual_review_note": "Reviewed on 2026-05-29: replaced Claude-specific context source wording with Manus-neutral project-context wording.",
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "grimoire",
@@ -496,7 +541,8 @@
       "Claude"
     ],
     "resources_copied": [],
-    "line_count": 63
+    "line_count": 63,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "humanize",
@@ -506,7 +552,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 106
+    "line_count": 106,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "competitor-analysis",
@@ -516,7 +563,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 264
+    "line_count": 264,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "facebook-ad",
@@ -526,7 +574,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 309
+    "line_count": 309,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "google-ad",
@@ -536,7 +585,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 278
+    "line_count": 278,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "launch-plan",
@@ -546,7 +596,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 284
+    "line_count": 284,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "lead-magnet",
@@ -556,7 +607,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 326
+    "line_count": 326,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "marketplace-submit",
@@ -571,7 +623,8 @@
       "MCP"
     ],
     "resources_copied": [],
-    "line_count": 175
+    "line_count": 175,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "pricing-strategy",
@@ -581,7 +634,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 266
+    "line_count": 266,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "sales-funnel",
@@ -591,7 +645,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 265
+    "line_count": 265,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "webinar-script",
@@ -601,7 +656,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 387
+    "line_count": 387,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "feature-spec",
@@ -611,7 +667,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 285
+    "line_count": 285,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "feedback-analyzer",
@@ -621,7 +678,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 288
+    "line_count": 288,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "mvp-scoper",
@@ -631,7 +689,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 278
+    "line_count": 278,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "prd-writer",
@@ -641,7 +700,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 280
+    "line_count": 280,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "roadmap-builder",
@@ -651,7 +711,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 308
+    "line_count": 308,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "user-story-generator",
@@ -661,7 +722,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 282
+    "line_count": 282,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "project",
@@ -675,7 +737,8 @@
       "memstack-db.py"
     ],
     "resources_copied": [],
-    "line_count": 80
+    "line_count": 80,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "quill",
@@ -688,7 +751,8 @@
       "memstack-db.py"
     ],
     "resources_copied": [],
-    "line_count": 65
+    "line_count": 65,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "scan",
@@ -698,7 +762,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 66
+    "line_count": 66,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "api-audit",
@@ -708,7 +773,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 358
+    "line_count": 358,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "csp-headers",
@@ -718,7 +784,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 424
+    "line_count": 424,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "dependency-audit",
@@ -728,7 +795,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 344
+    "line_count": 344,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "owasp-top10",
@@ -738,7 +806,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 432
+    "line_count": 432,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "rls-checker",
@@ -748,7 +817,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 258
+    "line_count": 258,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "rls-guardian",
@@ -758,7 +828,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 420
+    "line_count": 420,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "secrets-scanner",
@@ -769,7 +840,8 @@
     "review_reasons": [],
     "resources_copied": [],
     "line_count": 428,
-    "manual_review_note": "Reviewed on 2026-05-29: removed CLAUDE.md documentation scan and rewrote MemStack Pro hook coverage as optional generic pre-commit/pre-push secret scanning guidance."
+    "manual_review_note": "Reviewed on 2026-05-29: removed CLAUDE.md documentation scan and rewrote MemStack Pro hook coverage as optional generic pre-commit/pre-push secret scanning guidance.",
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "ai-search-visibility",
@@ -782,7 +854,8 @@
       "references/"
     ],
     "line_count": 332,
-    "manual_review_note": "Reviewed on 2026-05-29: updated AI crawler table and robots.txt examples with verified OpenAI, Perplexity, and Anthropic crawler/fetcher names; copied and updated platform-ranking-factors.md into the skill references folder."
+    "manual_review_note": "Reviewed on 2026-05-29: verified AI crawler guidance, local platform reference, Manus-native Scope Guard, and AI-search Anti-patterns restored.",
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "keyword-research",
@@ -792,7 +865,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 212
+    "line_count": 212,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "local-seo",
@@ -802,7 +876,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 300
+    "line_count": 300,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "meta-tag-optimizer",
@@ -812,7 +887,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 256
+    "line_count": 256,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "schema-markup",
@@ -824,23 +900,23 @@
     "resources_copied": [
       "references/"
     ],
-    "line_count": 287
+    "line_count": 287,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "site-audit",
     "category": "seo-geo",
     "source": "skills/seo-geo/site-audit/SKILL.md",
     "destination": "skills/site-audit/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      "Claude"
-    ],
+    "needs_review": false,
+    "review_reasons": [],
     "resources_copied": [
       "references/",
       "scripts/"
     ],
     "line_count": 275,
-    "manual_review_note": "Reference updated on 2026-05-29: platform-ranking-factors.md rewritten with evidence grading, current crawler access matrix, and revised AI search guidance."
+    "manual_review_note": "Reviewed on 2026-05-29: AI platform reference updated, Manus-neutral platform wording applied, and Scope Guard plus Anti-patterns restored.",
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "shard",
@@ -850,7 +926,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 80
+    "line_count": 80,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "sight",
@@ -860,7 +937,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 76
+    "line_count": 76,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "state",
@@ -873,7 +951,8 @@
       "Claude"
     ],
     "resources_copied": [],
-    "line_count": 114
+    "line_count": 114,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "token-optimization",
@@ -888,7 +967,8 @@
       "claude mcp"
     ],
     "resources_copied": [],
-    "line_count": 364
+    "line_count": 364,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "verify",
@@ -898,7 +978,8 @@
     "needs_review": false,
     "review_reasons": [],
     "resources_copied": [],
-    "line_count": 151
+    "line_count": 151,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
     "name": "work",
@@ -913,6 +994,7 @@
       "memstack-db.py"
     ],
     "resources_copied": [],
-    "line_count": 130
+    "line_count": 130,
+    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   }
 ]

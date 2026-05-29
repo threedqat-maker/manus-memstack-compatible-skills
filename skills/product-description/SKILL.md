@@ -10,7 +10,9 @@ description: "Use when the user asks for 'product description', 'product listing
 # Product Description — Writing product copy...
 *Creates conversion-optimized product descriptions with feature-to-benefit conversion, sensory language, SEO keywords, A/B variants, and platform-specific formats for Amazon, Shopify, and Etsy.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

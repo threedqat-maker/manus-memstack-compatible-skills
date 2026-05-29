@@ -10,7 +10,9 @@ description: "Use when the user asks for 'contract', 'agreement', 'service agree
 # Contract Template — Drafting service agreement...
 *Provides service agreement, NDA, and subcontractor templates with scope, payment, IP ownership, confidentiality, termination, and liability clauses.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

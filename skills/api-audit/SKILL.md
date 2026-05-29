@@ -10,7 +10,9 @@ description: "Use when the user asks for 'audit API', 'check API security', 'API
 # ️ API Audit — Checking API Route Security...
 *Audit Next.js API routes for authentication, authorization, validation, and common vulnerabilities.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

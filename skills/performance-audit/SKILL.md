@@ -10,6 +10,14 @@ description: "Use when the user asks for 'performance audit', 'why is it slow', 
 #  Performance Audit — Full-Stack Performance Scanner
 *Identify and prioritize performance bottlenecks across frontend, backend, and network layers with measured impact and fix priority.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'performance audit', 'why is it slow', 'optimize performance', 'page speed', 'Core Web Vitals', 'lighthouse', 'load time', or needs to diagnose and fix frontend or backend performance issues. | code reviews or security audits. |
+
 ## Protocol
 
 ### Step 1: Gather Inputs

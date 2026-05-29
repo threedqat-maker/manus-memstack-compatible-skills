@@ -10,7 +10,9 @@ description: "Use when the user asks for 'write browser tests', 'test this page'
 # Webapp Testing — Writing browser tests...
 *Produces Playwright end-to-end tests that verify real user flows in a browser.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 - Do NOT use for unit tests (Jest, Vitest without browser)
 - Do NOT use for API-only testing (use curl/fetch patterns)

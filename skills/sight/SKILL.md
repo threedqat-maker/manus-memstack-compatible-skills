@@ -10,7 +10,9 @@ description: "Use when the user asks for 'draw', 'diagram', 'visualize', 'archit
 # ️ Sight — The Hidden Becomes Clear
 *Generate Mermaid diagrams showing project architecture, schema, and data flow.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

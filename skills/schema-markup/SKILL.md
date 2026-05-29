@@ -10,6 +10,23 @@ description: "Use when the user asks for 'add schema', 'schema markup', 'JSON-LD
 #  Schema Markup — Generating structured data for rich results...
 *Identifies applicable schema types, generates valid JSON-LD blocks, and verifies against Google's Rich Results requirements — ready to paste into page head.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'add schema', 'schema markup', 'JSON-LD', 'structured data', 'rich results', 'rich snippets', or is adding or fixing schema.org structured data for better search result appearance. | meta tag optimization or full SEO audits. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "Schema is optional" | Pages with schema get rich results. Pages without get plain blue links. Rich results get 2-3x more clicks. |
+| "Add every schema type" | Only add schema that matches actual page content. Irrelevant schema triggers manual actions from Google. |
+| "Microdata is fine" | Google recommends JSON-LD. It's cleaner, easier to maintain, and separated from HTML. Use JSON-LD only. |
+| "Copy schema from another site" | Schema must reflect YOUR content. Copying schema with different data violates Google's guidelines. |
+| "Schema guarantees rich results" | Schema makes you eligible. Google decides whether to show rich results based on quality and relevance. |
+
 ## Protocol
 
 For ready-to-paste JSON-LD templates covering all 10 common schema types (FAQPage, WebPage, Article, SoftwareApplication, Organization, Product, HowTo, BreadcrumbList, LocalBusiness, SpeakableSpecification) plus a combined `@graph` bundle, see [`references/schema-templates.md`](./references/schema-templates.md). The step-by-step generation logic below still applies — the reference file is a copy-paste library, not a replacement for the per-page-type mapping in Step 1.

@@ -10,7 +10,9 @@ description: "Use when the user asks for 'pricing strategy', 'how to price', 'pr
 # Pricing Strategy — Designing pricing model...
 *Designs pricing tiers using cost-plus, value-based, and competitor-based models with psychology triggers, tier structure templates, and A/B test plans.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

@@ -10,7 +10,9 @@ description: "Use when the user asks for 'user stories', 'write stories', 'backl
 # User Story Generator — Generating user stories...
 *Produces prioritized user stories with Given/When/Then acceptance criteria, story point estimates, story mapping across epics, and MoSCoW prioritization for sprint planning.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

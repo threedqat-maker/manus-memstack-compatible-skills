@@ -10,6 +10,24 @@ description: "Use when the user asks for 'design API', 'API endpoints', 'REST AP
 #  API Designer — Designing routes, validation, and handler patterns...
 *Produces production-ready Next.js App Router API routes with auth guards, Zod validation, typed responses, and consistent error handling.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'design API', 'API endpoints', 'REST API', 'API designer', 'route structure', 'API architecture', or is designing RESTful API routes, request/response schemas, and endpoint organization. | API security audits or database design. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "Auth is handled by middleware" | Middleware can be bypassed. Every route handler must verify auth independently. |
+| "I'll validate input later" | Unvalidated input is the root of injection, type errors, and 500s. Zod first, logic second. |
+| "Return 200 for everything" | Status codes are the API contract. 401 vs 403 vs 404 vs 422 mean different things to clients. |
+| "Error details help debugging" | Stack traces and internal errors help attackers. Return safe messages, log details server-side. |
+| "Rate limiting is a nice-to-have" | Public endpoints without rate limits get abused within hours of deployment. |
+| "TypeScript types are documentation enough" | Types exist at build time. Zod schemas validate at runtime. You need both. |
+
 ## Protocol
 
 ### Step 1: Design Route Structure

@@ -12,7 +12,9 @@ description: "Use when the user asks for 'headroom', 'compression', 'token savin
 # ️ Compress — Headroom Proxy Manager
 *Monitor and manage Headroom context compression for Manus sessions.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

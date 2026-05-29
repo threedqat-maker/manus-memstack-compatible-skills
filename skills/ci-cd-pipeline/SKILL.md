@@ -10,6 +10,14 @@ description: "Use when the user asks for 'CI/CD', 'GitHub Actions', 'pipeline', 
 #  CI/CD Pipeline — Continuous Integration & Deployment
 *Detect project type and generate a complete CI/CD pipeline with lint, test, build, deploy stages, rollback strategy, and environment management.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'CI/CD', 'GitHub Actions', 'pipeline', 'continuous integration', 'continuous deployment', 'ci-cd-pipeline', 'automate deploys', or needs to set up automated build, test, and deployment pipelines. | one-time manual deployments. |
+
 ## Protocol
 
 ### Step 1: Gather Inputs

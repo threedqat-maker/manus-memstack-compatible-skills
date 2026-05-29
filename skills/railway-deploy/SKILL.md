@@ -10,6 +10,23 @@ description: "Use when the user asks for 'deploy to Railway', 'Railway setup', '
 #  Railway Deploy — Pre-flight check and deploy to Railway...
 *Validates project configuration, environment variables, and deployment readiness before pushing to Railway.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'deploy to Railway', 'Railway setup', 'railway-deploy', or needs to deploy a Node.js, Python, or Docker application to Railway with environment variables, custom domains, and monitoring. | Netlify, Vercel, or Hetzner deployments. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "I'll just `railway up` and see what happens" | Pre-flight catches 90% of deploy failures. Check first. |
+| "Environment vars are probably fine" | Missing vars are the #1 cause of Railway deploy failures. Verify every one. |
+| "It works locally so it'll work on Railway" | localhost URLs, SQLite paths, and file:// references all break in production. |
+| "I'll fix the Dockerfile later" | Railway's nixpacks auto-detect fails on monorepos and custom setups. Define build explicitly. |
+| "The database connection works" | Railway internal networking uses `*.railway.internal` hostnames. External URLs add latency and cost. |
+
 ## Protocol
 
 ### Step 1: Detect Project Type

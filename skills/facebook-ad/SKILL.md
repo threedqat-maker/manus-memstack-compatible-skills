@@ -10,7 +10,9 @@ description: "Use when the user asks for 'facebook ad', 'FB ad', 'Meta ad', 'Ins
 # Facebook Ad — Creating Meta ad campaign...
 *Creates complete ad campaigns with audience targeting, ad copy variations, creative direction, budget allocation, and A/B testing protocol for Meta Ads Manager.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

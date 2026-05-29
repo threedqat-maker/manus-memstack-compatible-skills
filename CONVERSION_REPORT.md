@@ -5,17 +5,24 @@ This report covers the conversion of the 84 public/free MemStack skills into Man
 | Metric | Count |
 |---|---:|
 | Converted skills | 84 |
-| Marked needs review | 14 |
+| Marked needs review | 13 |
 | Resource groups/files copied | 7 |
+| Skills with Manus-native Scope Guard | 84 |
+| Skills with restored useful Anti-patterns | 21 |
+| Claude-style Activation sections retained | 0 |
+
+## Structural Conversion Policy
+
+Claude-style `Activation` sections were left out because they duplicate metadata-based routing and often instruct the agent to print banners rather than improve task execution. Manus-native `Scope Guard` sections now define when each skill should and should not be used. Useful `Anti-patterns` were restored where they existed in the original public source because they contain reasoning guardrails, not runtime glue.
 
 ## Manual Review Updates
 
 | Skill | Status | Change made |
 |---|---|---|
-| `ai-search-visibility` | Manus-ready draft | Reviewed on 2026-05-29: updated AI crawler table and robots.txt examples with verified OpenAI, Perplexity, and Anthropic crawler/fetcher names; copied and updated platform-ranking-factors.md into the skill references folder. |
+| `ai-search-visibility` | Manus-ready draft | Reviewed on 2026-05-29: verified AI crawler guidance, local platform reference, Manus-native Scope Guard, and AI-search Anti-patterns restored. |
 | `governor` | Manus-ready draft | Reviewed on 2026-05-29: replaced Claude-specific context source wording with Manus-neutral project-context wording. |
 | `secrets-scanner` | Manus-ready draft | Reviewed on 2026-05-29: removed CLAUDE.md documentation scan and rewrote MemStack Pro hook coverage as optional generic pre-commit/pre-push secret scanning guidance. |
-| `site-audit` | Needs review | Reference updated on 2026-05-29: platform-ranking-factors.md rewritten with evidence grading, current crawler access matrix, and revised AI search guidance. |
+| `site-audit` | Manus-ready draft | Reviewed on 2026-05-29: AI platform reference updated, Manus-neutral platform wording applied, and Scope Guard plus Anti-patterns restored. |
 
 ## Skills Marked Needs Review
 
@@ -31,7 +38,6 @@ This report covers the conversion of the 84 public/free MemStack skills into Man
 | `marketplace-submit` | marketing | CC session, Claude, Claude Code, MCP |
 | `project` | core | $MEMSTACK_PATH, CC session, memstack-db.py |
 | `quill` | core | $MEMSTACK_PATH, memstack-db.py |
-| `site-audit` | seo-geo | Claude |
 | `state` | core | .claude, Claude |
 | `token-optimization` | core | Claude, Claude Code, MCP, claude mcp |
 | `work` | core | $MEMSTACK_PATH, .claude, Claude, memstack-db.py |
@@ -117,7 +123,7 @@ This report covers the conversion of the 84 public/free MemStack skills into Man
 | `local-seo` | seo-geo | Manus-ready draft | `skills/seo-geo/local-seo/SKILL.md` | None |
 | `meta-tag-optimizer` | seo-geo | Manus-ready draft | `skills/seo-geo/meta-tag-optimizer/SKILL.md` | None |
 | `schema-markup` | seo-geo | Manus-ready draft | `skills/seo-geo/schema-markup/SKILL.md` | references/ |
-| `site-audit` | seo-geo | Needs review | `skills/seo-geo/site-audit/SKILL.md` | references/, scripts/ |
+| `site-audit` | seo-geo | Manus-ready draft | `skills/seo-geo/site-audit/SKILL.md` | references/, scripts/ |
 | `shard` | core | Manus-ready draft | `skills/shard/SKILL.md` | None |
 | `sight` | core | Manus-ready draft | `skills/sight/SKILL.md` | None |
 | `state` | core | Needs review | `skills/state/SKILL.md` | None |

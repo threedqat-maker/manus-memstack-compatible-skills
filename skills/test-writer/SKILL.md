@@ -10,7 +10,9 @@ description: "Use when the user asks for 'write tests', 'add tests', 'test cover
 # Test Writer — Generating test suite...
 *Generates comprehensive test suites with unit, integration, and e2e tests, proper mocking strategies, edge case coverage, naming conventions, and CI integration patterns.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

@@ -10,6 +10,23 @@ description: "Use when the user asks for 'scope of work', 'SOW', 'define scope',
 #  Scope of Work — Defining project boundaries and deliverables...
 *Generates a formal Scope of Work document with objectives, deliverables, acceptance criteria, in/out scope definitions, work breakdown structure, milestones, and change request process.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'scope of work', 'SOW', 'define scope', 'project scope', 'write SOW', 'scope document', or is defining project boundaries, deliverables, and acceptance criteria for a formal engagement. | proposals, contracts, or invoicing. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "The scope is obvious from the proposal" | Proposals sell. SOWs define. Same project, different documents, different purpose. |
+| "We don't need to list exclusions" | Every scope dispute starts with "I assumed it was included." List what's OUT explicitly. |
+| "Acceptance criteria slow us down" | Acceptance criteria prevent "it's not what I wanted" after you've built it. They speed up delivery. |
+| "We'll handle changes informally" | Informal changes create informal expectations. Formal change requests protect the timeline and budget. |
+| "Dependencies don't matter yet" | Dependencies determine what blocks what. Discovering them mid-project causes delays. Map them upfront. |
+
 ## Protocol
 
 ### Step 1: Define Project Objectives

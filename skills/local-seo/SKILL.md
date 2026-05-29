@@ -10,6 +10,23 @@ description: "Use when the user asks for 'local SEO', 'Google Business Profile',
 #  Local SEO — Optimizing for local search and map visibility...
 *Evaluates Google Business Profile, NAP consistency, local schema markup, location pages, citations, and review management — producing an actionable local SEO scorecard.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'local SEO', 'Google Business Profile', 'local search', 'NAP consistency', 'local listings', 'Google Maps', 'local pack', or is optimizing a business for local search results and map visibility. | general SEO audits or national keyword research. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "We're online-only, local SEO doesn't apply" | If you serve specific regions or have a registered address, local SEO applies. Service-area businesses benefit enormously. |
+| "Google Business Profile is set and forget" | GBP needs regular updates: posts, photos, Q&A responses, review replies. Stale profiles rank lower. |
+| "Our address is on the Contact page, that's enough" | NAP must be consistent across every directory, citation, and page. One inconsistency can split your local authority. |
+| "Reviews don't affect ranking" | Reviews are a top-3 local ranking factor. Quantity, quality, recency, and response rate all matter. |
+| "We don't need location pages" | If you serve multiple areas, each needs a unique page with local content — not boilerplate with swapped city names. |
+
 ## Protocol
 
 ### Step 1: Check Google Business Profile

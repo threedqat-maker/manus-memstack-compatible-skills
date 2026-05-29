@@ -10,6 +10,14 @@ description: "Use when the user asks for 'dependency audit', 'npm audit', 'pip a
 #  Dependency Audit — Supply Chain Security Scanner
 *Scan project dependencies for vulnerabilities, outdated packages, abandoned libraries, and supply chain risks with a prioritized upgrade plan.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'dependency audit', 'npm audit', 'pip audit', 'cargo audit', 'security vulnerabilities', 'outdated packages', 'supply chain', or needs to scan project dependencies for vulnerabilities, abandoned packages, and upgrade risks. | application-level security or secrets scanning. |
+
 ## Protocol
 
 ### Step 1: Detect Project Type

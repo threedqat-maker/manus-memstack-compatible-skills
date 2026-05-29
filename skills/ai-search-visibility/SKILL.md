@@ -10,6 +10,26 @@ description: "Use when the user asks for 'AI search', 'AI visibility', 'ChatGPT 
 #  AI Search Visibility — Optimizing for AI search engines...
 *Evaluates and optimizes content for citation by AI search engines (ChatGPT Search, Perplexity, Google AI Overview, Claude Search, and similar AI answer engines) — checking crawler access, content structure, llms.txt, and AI-friendly patterns.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'AI search', 'AI visibility', 'ChatGPT ranking', 'Perplexity optimization', 'GEO', 'generative engine optimization', or needs to optimize content for AI-powered search engines and LLM citations. | traditional SEO audits or Google Ads. |
+
+
+## Anti-patterns
+
+| Trap | Reality Check |
+|---|---|
+| "SEO is enough for AI" | AI answer engines need direct, extractable answers, source clarity, and crawler access decisions; traditional SEO alone is not enough. |
+| "Block all AI crawlers" | Blocking search/indexing crawlers can prevent content from appearing in AI answers. Block selectively based on business, legal, and training-use policy. |
+| "AI will find our content naturally" | AI systems prioritize structured, authoritative, crawlable content. Unstructured marketing copy is often skipped or summarized without citation. |
+| "GEO is just a fad" | AI answer engines are becoming a mainstream discovery layer. Treat GEO as an extension of technical SEO, content strategy, and entity authority. |
+| "We can't measure AI visibility" | You can monitor crawler logs, AI referral traffic, brand/entity answers, and citation appearances across ChatGPT, Perplexity, Claude, Copilot, and Google. |
+| "More keyword density means more AI visibility" | Keyword stuffing makes content less authoritative and less extractable. Use natural language, citations, statistics, and clearly structured answers. |
+
 ## Protocol
 
 ### Step 1: Check AI Bot Crawler Access
@@ -193,16 +213,6 @@ Princeton's 2023 GEO study (Aggarwal et al., arXiv:2311.09735, accepted at KDD 2
 | **Legal** | Citations + Quotations + Authoritative Tone | Informal language, hedging |
 | **Education** | Simplification + Examples + Structure | Excessive complexity or abstraction |
 | **E-commerce** | Statistics + Social Proof + Clear Benefits | Feature dumps without outcomes |
-
-#### Anti-pattern: Keyword stuffing actively hurts AI visibility
-
-| Trap | Reality Check |
-|---|---|
-| "More keyword density = more AI visibility" | The Princeton research measured a **−10% visibility drop** when content was keyword-stuffed. Generative engines downweight keyword-dense text because it reads as non-authoritative. Write naturally, add citations and statistics, let the topic come through via context. |
-
-**Reference:** Aggarwal, P., Murahari, V., Rajpurohit, T., Kalyan, A., Narasimhan, K., & Deshpande, A. (2023). *GEO: Generative Engine Optimization.* arXiv:2311.09735. Accepted at KDD 2024 (30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining).
-
-**Platform-specific tuning:** For how each AI search engine (ChatGPT Search, Perplexity, Google AI Overview, Copilot, Claude Search, and similar answer engines) ranks and cites content — including citation share, freshness windows, and per-platform format preferences — see [`references/platform-ranking-factors.md`](references/platform-ranking-factors.md). The Princeton methods above are universal; the platform reference tells you where to spend effort first based on your audience.
 
 ### Step 4: Add llms.txt File
 

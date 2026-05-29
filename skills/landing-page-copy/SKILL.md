@@ -10,6 +10,23 @@ description: "Use when the user asks for 'write landing page', 'landing page cop
 #  Landing Page Copy — Writing conversion-optimized page copy...
 *Produces structured landing page copy blocks — hero, problem, solution, features, social proof, FAQ, CTA — ready to drop into any template or design.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'write landing page', 'landing page copy', 'sales page', 'hero section', 'conversion copy', or is creating persuasive short-form copy for a product or service landing page. | blog posts or email sequences. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "Describe all the features" | Features tell. Benefits sell. Lead with what the customer gets, not what the product does. |
+| "Make the headline clever" | Clever headlines confuse. Clear headlines convert. Clarity beats creativity every time. |
+| "Everyone is our audience" | Speaking to everyone means connecting with no one. Pick one persona and write to them. |
+| "Long copy won't be read" | Long copy outperforms short copy when every sentence earns the next. Cut filler, not length. |
+| "We don't need social proof yet" | No testimonials? Use stats, logos, case study snippets, or "built by" credibility. Something is always better than nothing. |
+
 ## Protocol
 
 ### Step 1: Gather Product Details

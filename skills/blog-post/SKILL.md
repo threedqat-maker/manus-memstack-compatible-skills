@@ -10,6 +10,23 @@ description: "Use when the user asks for 'write blog post', 'blog post about', '
 # ️ Blog Post — Writing SEO-optimized blog post...
 *Produces a complete, publish-ready blog post with SEO metadata, structured sections, readability optimization, and internal linking suggestions.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'write blog post', 'blog post about', 'write article', 'create blog', 'content for blog', 'write post', or is creating long-form written content for a blog or publication. | landing page copy, email sequences, or social media posts. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "Write about everything related to the topic" | Focus on one angle. Broad posts rank for nothing. Narrow posts rank for one keyword. |
+| "The intro should provide context" | The intro should hook. Context bores. Open with a bold claim, stat, or question. |
+| "Longer is better for SEO" | Comprehensive beats long. 1,500 focused words outrank 3,000 padded words. |
+| "Stuff the keyword everywhere" | Use the keyword naturally 3-5 times. Search engines penalize stuffing. Readers hate it. |
+| "Anyone who finds it will read it" | You have 3 seconds. If the title and intro don't hook them, the rest doesn't matter. |
+
 ## Protocol
 
 ### Step 1: Gather Topic Details

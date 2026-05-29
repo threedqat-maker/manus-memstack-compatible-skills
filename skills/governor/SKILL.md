@@ -11,7 +11,9 @@ description: "Use when the user asks for 'new project', 'project init', 'what ti
 
 *Enforce tier-appropriate complexity. Prevent over-engineering the #1 waste of time in AI-assisted development.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status | Priority |
 |---------|--------|----------|

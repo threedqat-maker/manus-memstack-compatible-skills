@@ -12,7 +12,9 @@ description: "Use when the user asks for 'what MCP servers', 'find an MCP for', 
 # Hosted MCP Catalog — Finding hosted MCP servers...
 *Reference guide for zero-setup hosted MCP servers that require no API keys, no local install — just point any MCP client at the URL.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 - Do NOT use for building MCP servers (that's mcp-builder Pro skill)
 - Do NOT use for local MCP server configuration

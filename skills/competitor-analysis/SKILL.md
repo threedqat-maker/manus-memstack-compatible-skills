@@ -10,7 +10,9 @@ description: "Use when the user asks for 'competitor analysis', 'competitive ana
 # Competitor Analysis — Analyzing competitive landscape...
 *Provides a structured 5-point competitive analysis covering pricing, features, positioning, traffic sources, and weaknesses — output as a comparison matrix with strategic recommendations.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

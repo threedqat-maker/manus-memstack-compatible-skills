@@ -12,7 +12,9 @@ description: "Use when the user asks for 'plan', 'todo', 'copy plan', 'append pl
 #  Work — Plan Execution Engaged
 *Track tasks, manage plans, and survive CC compacts with three operating modes.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

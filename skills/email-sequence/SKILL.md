@@ -10,6 +10,23 @@ description: "Use when the user asks for 'write email sequence', 'email sequence
 #  Email Sequence — Writing automated email campaign...
 *Produces a complete multi-email sequence with subject lines, preview text, body copy, CTAs, and A/B test suggestions — ready to load into any email platform.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'write email sequence', 'email sequence', 'drip campaign', 'email series', 'nurture sequence', 'onboarding emails', 'launch emails', or is creating a multi-email automated campaign. | newsletters or single marketing emails. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "Pitch in the first email" | Email 1 is for trust, not selling. Premature pitching gets unsubscribes, not conversions. |
+| "More emails = more sales" | Frequency breeds fatigue. 5 focused emails beat 12 filler emails. Quality per email matters more than quantity. |
+| "Long subject lines explain more" | Subject lines are read on mobile. After 50 characters, they're truncated. Short + curious wins. |
+| "The body copy needs to be short" | Length doesn't kill — boring does. A 500-word email that's engaging outperforms a 100-word email that's bland. |
+| "Everyone gets the same sequence" | Segmentation doubles conversion. At minimum, separate new subscribers from existing customers. |
+
 ## Protocol
 
 ### Step 1: Gather Campaign Details

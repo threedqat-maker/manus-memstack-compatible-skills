@@ -10,7 +10,9 @@ description: "Use when the user asks for 'migration', 'schema change', 'database
 # Migration Planner — Planning database migration...
 *Plans safe database schema migrations with zero-downtime strategies, rollback procedures, data validation checkpoints, and version tracking for PostgreSQL, MySQL, and SQLite.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

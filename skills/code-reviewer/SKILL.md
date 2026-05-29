@@ -10,6 +10,23 @@ description: "Use when the user asks for 'review code', 'code review', 'check my
 #  Code Reviewer — Reviewing code for issues and improvements...
 *Systematic code review across security, performance, maintainability, error handling, testing, and accessibility — with severity-ranked findings and specific fixes.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'review code', 'code review', 'check my code', 'audit this', 'review PR', 'review changes', 'what\\'s wrong with this', or is requesting a structured review of code quality, security, performance, or maintainability. | refactoring plans or test generation. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "This looks fine to me" | Check every category systematically. Skimming misses auth gaps and N+1 queries. |
+| "Style issues are important" | Linters handle style. Focus on logic, security, and correctness. |
+| "I'll flag everything I see" | Noise kills reviews. Only report issues with real impact. Severity matters. |
+| "The code works so it's fine" | Working does not mean correct. Race conditions, edge cases, and security holes all "work" until they don't. |
+| "I'll suggest a complete rewrite" | Review what's there. Propose targeted fixes, not architectural overhauls. |
+
 ## Severity Levels
 
 | Level | Label | Meaning | Action |

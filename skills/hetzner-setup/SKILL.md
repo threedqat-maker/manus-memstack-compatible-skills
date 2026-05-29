@@ -10,6 +10,14 @@ description: "Use when the user asks for 'Hetzner', 'VPS setup', 'server provisi
 # ️ Hetzner Setup — VPS Provisioning & Deployment
 *Provision a Hetzner Cloud server with security hardening, reverse proxy, SSL, database setup, monitoring, and automated backups.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'Hetzner', 'VPS setup', 'server provisioning', 'deploy to VPS', 'hetzner-setup', 'cloud server', or needs to provision, harden, and deploy applications to a Hetzner Cloud server with Docker, Nginx/Caddy, SSL, and monitoring. | managed platform deployments like Railway or Netlify. |
+
 ## Protocol
 
 ### Step 1: Gather Inputs

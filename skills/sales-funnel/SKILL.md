@@ -10,7 +10,9 @@ description: "Use when the user asks for 'sales funnel', 'funnel', 'conversion f
 # Sales Funnel — Mapping customer journey from stranger to buyer...
 *Maps the complete customer journey across TOFU/MOFU/BOFU stages with page templates, copy hooks, conversion targets, and optimization checklist.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

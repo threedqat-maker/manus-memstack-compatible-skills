@@ -10,6 +10,23 @@ description: "Use when the user asks for 'deploy to Netlify', 'Netlify setup', '
 #  Netlify Deploy — Pre-flight check and deploy to Netlify...
 *Validates build config, redirects, environment variables, and deployment readiness for Netlify static/SPA hosting.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'deploy to Netlify', 'Netlify setup', 'netlify-deploy', or needs to deploy a static site or serverless functions to Netlify with build configuration and custom domains. | Railway, Vercel, or VPS deployments. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "I'll configure it in the Netlify UI" | `netlify.toml` is version-controlled and portable. UI settings get lost across teams. |
+| "Redirects work fine without _redirects" | SPA routing breaks on refresh without `/* /index.html 200`. Every SPA needs this. |
+| "Environment vars are the same everywhere" | Build-time vars (baked into JS bundle) vs runtime vars (Netlify Functions) are different. `NEXT_PUBLIC_` prefix exposes to client. |
+| "The API proxy just works" | `/api/*` redirects must point to your actual backend URL. Forgetting to update after backend redeploy breaks the frontend. |
+| "I'll check the deploy after pushing" | `netlify deploy --build` locally catches build failures before they hit production. Always build locally first. |
+
 ## Protocol
 
 ### Step 1: Check Build Configuration

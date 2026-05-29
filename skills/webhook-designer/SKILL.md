@@ -10,7 +10,9 @@ description: "Use when the user asks for 'webhook', 'webhook handler', 'webhook 
 # Webhook Designer — Designing webhook handler...
 *Creates secure webhook handlers with endpoint design, payload validation, HMAC signature verification, retry logic, idempotency, logging, and dead letter queues.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

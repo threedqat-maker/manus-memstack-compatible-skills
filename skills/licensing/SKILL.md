@@ -10,7 +10,9 @@ description: "Use when the user asks for 'licensing', 'license audit', 'can I us
 # Licensing — Commercial-use license audit from the repo...
 *Scans a repository for every license that touches the product (deps, vendored code, fonts, assets), then produces a per-package verdict table marking each as Ready, Citation Required, Needs Info, or Not Allowed for commercial use.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

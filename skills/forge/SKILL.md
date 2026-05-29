@@ -12,6 +12,14 @@ description: "Use when the user asks for 'forge this', 'new skill', 'create ench
 #  Forge — Creating New Enchantment...
 *Create new MemStack skills or improve existing ones.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'forge this', 'new skill', 'create enchantment', or wants to create a MemStack skill. | Tasks outside this skill’s stated domain, or tasks better handled by a more specific installed skill. |
+
 ## Protocol
 
 ### Creating a new skill:

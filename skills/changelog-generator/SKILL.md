@@ -10,7 +10,9 @@ description: "Use when the user asks for 'generate changelog', 'update changelog
 # Changelog Generator — Generating changelog...
 *Produces a formatted CHANGELOG.md from git commit history, grouped by type and ready for release.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 - Do NOT use for session logging (that's Diary)
 - Do NOT use for commit message writing (that's a git workflow)

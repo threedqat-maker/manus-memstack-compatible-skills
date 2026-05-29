@@ -10,7 +10,9 @@ description: "Use when the user asks for 'newsletter', 'email newsletter', 'week
 # Newsletter — Writing email newsletter edition...
 *Produces an email newsletter edition with subject line formulas, section structure, personalization, link placement strategy, growth tactics, and engagement optimization.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

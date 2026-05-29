@@ -10,6 +10,23 @@ description: "Use when the user asks for 'write proposal', 'create proposal', 'p
 #  Proposal Writer — Drafting project proposal...
 *Generates a professional project proposal with executive summary, deliverables, tiered pricing, timeline, and terms — ready to send as PDF or email.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'write proposal', 'create proposal', 'proposal for', 'client proposal', 'project proposal', 'bid on project', 'pitch', or is preparing a project proposal for a client or freelance engagement. | contracts, invoices, or onboarding. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "Just list what we'll build" | Proposals sell outcomes, not features. Lead with the problem you solve. |
+| "One price, take it or leave it" | Tiered pricing lets clients choose their budget level. Always offer 2-3 options. |
+| "We'll figure out scope later" | Vague scope creates disputes. Define deliverables AND exclusions explicitly. |
+| "Terms can wait until contract" | Payment schedule, revision limits, and IP ownership prevent 80% of freelance conflicts. Include them. |
+| "The longer the better" | Busy clients skim. Executive summary + pricing first. Details in appendix. |
+
 ## Protocol
 
 ### Step 1: Gather Project Requirements

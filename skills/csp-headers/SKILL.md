@@ -10,6 +10,14 @@ description: "Use when the user asks for 'CSP', 'Content-Security-Policy', 'secu
 # ️ CSP Headers — Security Headers Auditor & Generator
 *Audit existing security headers, identify overly permissive directives, and generate a production-ready Content-Security-Policy with companion headers.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'CSP', 'Content-Security-Policy', 'security headers', 'HSTS', 'X-Frame-Options', 'clickjacking', 'unsafe-inline', 'unsafe-eval', or needs to audit, generate, or fix HTTP security headers for a web application. | API route audits or dependency scanning. |
+
 ## Protocol
 
 ### Step 1: Gather Inputs

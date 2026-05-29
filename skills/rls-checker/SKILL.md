@@ -10,7 +10,9 @@ description: "Use when the user asks for 'check RLS', 'audit RLS', 'RLS policies
 #  RLS Checker — Auditing Row Level Security...
 *Audit Supabase Row Level Security policies across all tables in a project.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

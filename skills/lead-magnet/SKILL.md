@@ -10,7 +10,9 @@ description: "Use when the user asks for 'lead magnet', 'opt-in', 'freebie', 'li
 # Lead Magnet — Creating lead capture asset...
 *Creates a lead magnet with format selection, content outline, landing page copy, email capture integration, delivery sequence, and nurture follow-up.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

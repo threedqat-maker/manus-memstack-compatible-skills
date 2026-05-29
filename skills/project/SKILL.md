@@ -12,6 +12,14 @@ description: "Use when the user asks for 'save project', 'handoff', or when cont
 #  Project — Saving Project State...
 *Save and restore project state between Manus sessions for seamless handoffs.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'save project', 'handoff', or when context is running low and state must be preserved. | Tasks outside this skill’s stated domain, or tasks better handled by a more specific installed skill. |
+
 ## Protocol
 
 ### Saving (handoff):

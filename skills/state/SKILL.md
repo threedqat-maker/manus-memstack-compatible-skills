@@ -12,7 +12,9 @@ description: "Use when the user asks for 'update state', 'project state', 'where
 #  State — Updating Project State...
 *Maintain a living document of where you are right now in a project.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status | Priority |
 |---------|--------|----------|

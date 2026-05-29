@@ -10,6 +10,23 @@ description: "Use when the user asks for 'YouTube script', 'video script', 'writ
 #  YouTube Script — Writing retention-optimized video script...
 *Produces a timestamped video script with hook, retention techniques, visual directions, SEO metadata, and thumbnail concept — optimized for YouTube's algorithm.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'YouTube script', 'video script', 'write script for YouTube', 'YouTube video outline', or is creating scripted content for a YouTube video with hooks, chapters, and CTAs. | TikTok/Reels short-form scripts or webinar presentations. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "Start with an intro about who I am" | Viewers don't care who you are until you've hooked them. Identity comes after value. |
+| "Cover everything about the topic" | YouTube rewards depth on one angle, not breadth across many. Pick one promise and deliver it fully. |
+| "The content speaks for itself" | Retention techniques (open loops, pattern breaks) keep viewers watching. Great content with poor pacing loses to good content with great pacing. |
+| "I'll figure out the visuals during editing" | Script the visuals alongside the words. B-roll and graphics are planned, not improvised. |
+| "Thumbnails are just screenshots" | The thumbnail is 50% of click-through rate. Design it before filming — it shapes the video's angle. |
+
 ## Protocol
 
 ### Step 1: Gather Video Details

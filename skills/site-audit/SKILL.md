@@ -3,18 +3,33 @@ name: site-audit
 description: "Use when the user asks for 'SEO audit', 'site audit', 'check SEO', 'audit my site', 'SEO check', 'technical SEO', or is evaluating a website's search engine optimization health, meta tags, performance, or structured data. Do not use for keyword research or schema markup generation alone."
 ---
 
-> **Conversion status: Needs manual review.** This skill was converted from a Claude/MemStack skill, but it contains runtime-specific assumptions that may not apply directly in Manus. Review before relying on it in production.
->
-> **Review triggers:** Claude.
+> **Conversion status: Manus-ready draft.** This skill was reviewed after the AI platform reference update. The remaining workflow is Manus-compatible, but crawler and AI-search guidance should still be re-verified during client work because platform policies change.
 
 > **Original source:** `cwinvestments/memstack/skills/seo-geo/site-audit/SKILL.md`.
 
 #  Site Audit — Running comprehensive SEO audit...
 *Scans every page for meta tags, heading hierarchy, broken links, image optimization, Core Web Vitals, robots/sitemap, performance, and structured data — producing a prioritized fix list.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'SEO audit', 'site audit', 'check SEO', 'audit my site', 'SEO check', 'technical SEO', or is evaluating a website's search engine optimization health, meta tags, performance, or structured data. | keyword research or schema markup generation alone. |
+
+## Anti-patterns
+| Trap | Reality Check |
+|------|---------------|
+| "The site looks fine in the browser" | Crawlers and users see different things. Missing meta tags, broken links, and slow JS are invisible to humans. |
+| "We'll optimize after launch" | Technical debt compounds. Fixing 5 issues now prevents 50 issues later when Google has already indexed the problems. |
+| "One audit is enough" | Sites change with every deploy. Audit after major content or code changes, minimum quarterly. |
+| "Performance doesn't affect SEO" | Core Web Vitals are ranking signals. Slow sites rank lower regardless of content quality. |
+| "Robots.txt is set and forget" | One wrong rule can deindex your entire site. Review after every major structural change. |
+
 ## Protocol
 
-For how each AI search engine ranks and cites content (ChatGPT, Perplexity, Google AI Overview, Copilot, Manus, and Google traditional as baseline), see [`references/platform-ranking-factors.md`](./references/platform-ranking-factors.md). Use it to prioritize fixes — a client whose audience is primarily on Perplexity benefits most from FAQ schema and PDF-friendly pages, while a ChatGPT-first audience needs backlinks and 30-day-fresh content.
+For how major AI answer engines and search platforms discover, rank, and cite content (ChatGPT Search, Perplexity, Google AI Overview, Microsoft Copilot, Claude Search, Bing, and Google traditional search), see [`references/platform-ranking-factors.md`](./references/platform-ranking-factors.md). Use it to prioritize fixes based on the client’s audience and visibility goals.
 
 ### Step 0: Live site snapshot (optional, for deployed URLs)
 

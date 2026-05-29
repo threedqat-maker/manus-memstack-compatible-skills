@@ -12,6 +12,14 @@ description: "Use when the user asks for 'create quotation', 'generate quote', '
 # ️ Quill — Drafting Quotation...
 *Generate professional client quotations and proposals.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'create quotation', 'generate quote', 'proposal', or needs a client-facing price document. | Tasks outside this skill’s stated domain, or tasks better handled by a more specific installed skill. |
+
 ## Protocol
 
 1. **Gather requirements** — ask the user for:

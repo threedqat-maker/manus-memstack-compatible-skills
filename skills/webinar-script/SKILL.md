@@ -10,7 +10,9 @@ description: "Use when the user asks for 'webinar script', 'webinar', 'live pres
 # Webinar Script — Writing presentation script...
 *Produces a full timestamped webinar script with hook, teaching segments, offer transition, Q&A handling, CTA placement, slide suggestions, and replay follow-up email sequence.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

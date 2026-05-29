@@ -10,7 +10,9 @@ description: "Use when the user asks for 'content pipeline', 'content automation
 # Content Pipeline — Automating content workflow...
 *Automates end-to-end content workflows from ideation through draft, review, approval, cross-platform formatting, scheduling, and publishing with CMS integration and image optimization.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

@@ -10,7 +10,9 @@ description: "Use when the user asks for 'invoice', 'generate invoice', 'create 
 # Invoice Generator — Creating professional invoice...
 *Generates professional invoices with line items, tax calculations, payment terms, due dates, and payment instructions — output as structured markdown ready for PDF conversion.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

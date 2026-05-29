@@ -12,6 +12,14 @@ description: "Use when the user asks for 'dispatch', 'send familiar', 'split tas
 #  Familiar — Dispatching Sub-Agents...
 *Break large tasks into coordinated Manus session prompts for parallel execution.*
 
+## Scope Guard
+
+Use this skill when the task matches the skill description and the user needs this specific workflow or deliverable.
+
+| Use this skill for | Do not use this skill for |
+|---|---|
+| Use when the user asks for 'dispatch', 'send familiar', 'split task', or needs work split across parallel CC sessions. | Tasks outside this skill’s stated domain, or tasks better handled by a more specific installed skill. |
+
 ## Protocol
 
 1. **Analyze the task** — identify independent sub-tasks that can run in parallel

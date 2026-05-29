@@ -19,9 +19,13 @@ skills/<skill-name>/
 | Metric | Count |
 |---|---:|
 | Converted public/free skills | 84 |
-| Skills marked needs review | 14 |
+| Skills marked needs review | 13 |
 | Bundled resource groups/files copied | 7 |
 
 ## Practical note
 
 This is a first-pass, credit-efficient conversion. The domain-specific workflows are largely preserved, but runtime-specific skills should be tested and revised before operational use in Manus.
+
+## Conversion Policy
+
+Claude-style `Activation` sections were intentionally omitted because Manus uses skill metadata for routing and does not need fixed activation banners. Each converted skill now includes a Manus-native `Scope Guard` section. Useful `Anti-patterns` sections from the original skills were restored where present because they provide task-specific reasoning guardrails.

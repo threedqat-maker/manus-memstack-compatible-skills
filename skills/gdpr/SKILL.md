@@ -10,7 +10,9 @@ description: "Use when the user asks for 'GDPR', 'data protection', 'privacy com
 # GDPR — Personal-data assessment from the repo...
 *Scans a repository for evidence of personal data collection, classifies sensitivity under GDPR, decides whether GDPR applies and how critical the obligations are, and reports the required roles, articles to satisfy, and remediation plan.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

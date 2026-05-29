@@ -12,7 +12,9 @@ description: "Use when the user asks for 'submit to marketplace', 'publish my sk
 # Marketplace Submit — Preparing marketplace submission...
 *Step-by-step guide to submit skills, plugins, or tools to community marketplaces via pull request.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 - Do NOT use for skill creation (that's Forge)
 - Do NOT use for plugin development

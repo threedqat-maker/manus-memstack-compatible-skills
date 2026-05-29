@@ -10,7 +10,9 @@ description: "Use when the user asks for 'feature spec', 'spec this feature', 'w
 # Feature Spec — Writing feature specification...
 *Creates a detailed specification for a single feature including user story, acceptance criteria, user flows, edge cases, API definitions, dependencies, and effort estimate.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

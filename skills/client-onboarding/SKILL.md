@@ -10,7 +10,9 @@ description: "Use when the user asks for 'client onboarding', 'new client', 'onb
 # Client Onboarding — Setting up new client...
 *Produces a complete client onboarding package with welcome email, intake questionnaire, kickoff meeting agenda, access provisioning checklist, expectations document, and 30/60/90-day check-in schedule.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|

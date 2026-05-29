@@ -10,7 +10,9 @@ description: "Use when the user asks for 'refactor', 'refactoring plan', 'code c
 # Refactor Planner — Planning systematic code improvement...
 *Identifies code smells, assesses refactoring risk, selects appropriate patterns, and builds incremental execution plans with rollback strategies and verification checkpoints.*
 
-## Context Guard
+## Scope Guard
+
+Use this section to decide whether this skill is appropriate for the current task. **ACTIVE** means the skill is relevant; **DORMANT** means another skill or a general response is likely better.
 
 | Context | Status |
 |---------|--------|
