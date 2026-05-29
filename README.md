@@ -1,4 +1,4 @@
-# Manus MemStack Compatable Skills
+# Manus MemStack Compatible Skills
 
 This repository contains a Manus-compatible conversion of some of the **84 public/free skills** from [`cwinvestments/memstack`](https://github.com/cwinvestments/memstack). The original project is MIT-licensed; the original license is preserved in `LICENSE`.
 
