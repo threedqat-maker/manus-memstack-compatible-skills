@@ -766,12 +766,11 @@
     "category": "security",
     "source": "skills/security/secrets-scanner/SKILL.md",
     "destination": "skills/secrets-scanner/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      "Claude"
-    ],
+    "needs_review": false,
+    "review_reasons": [],
     "resources_copied": [],
-    "line_count": 428
+    "line_count": 428,
+    "manual_review_note": "Reviewed on 2026-05-29: removed CLAUDE.md documentation scan and rewrote MemStack Pro hook coverage as optional generic pre-commit/pre-push secret scanning guidance."
   },
   {
     "name": "ai-search-visibility",

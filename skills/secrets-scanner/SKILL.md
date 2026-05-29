@@ -3,9 +3,7 @@ name: secrets-scanner
 description: "Use when the user asks for 'scan for secrets', 'check for leaked keys', 'secrets scanner', 'hardcoded credentials', 'API key leak', or needs to detect exposed secrets in source code. Do not use for dependency vulnerabilities or RLS auditing."
 ---
 
-> **Conversion status: Needs manual review.** This skill was converted from a Claude/MemStack skill, but it contains runtime-specific assumptions that may not apply directly in Manus. Review before relying on it in production.
->
-> **Review triggers:** Claude.
+> **Conversion status: Manus-ready draft.** This skill was reviewed and updated to remove Claude/MemStack runtime assumptions. Test on a representative repository before relying on it as the only secret-detection control.
 
 > **Original source:** `cwinvestments/memstack/skills/security/secrets-scanner/SKILL.md`.
 
@@ -122,8 +120,8 @@ git log --all --diff-filter=A --name-only --pretty=format: | grep -i "\.env" | s
 Secrets often leak into files developers don't think about:
 
 ```bash
-# Check CLAUDE.md, README, docs
-grep -rn "sk_\|pk_\|AKIA\|ghp_\|password\s*[:=]" *.md docs/ CLAUDE.md README.md 2>/dev/null
+# Check Markdown documentation and docs folders
+grep -rn "sk_\|pk_\|AKIA\|ghp_\|password\s*[:=]" *.md docs/ 2>/dev/null
 
 # Check config files
 grep -rn "sk_\|pk_\|AKIA\|secret\|password\|token" \
@@ -398,28 +396,25 @@ Always conclude with:
 | `-----BEGIN OPENSSH PRIVATE KEY-----` | SSH Private Key | OpenSSH format |
 | Base64 in secret var | Obfuscated secret | `c2VjcmV0X2tleQ==` |
 
-## Automated Hook Coverage
+## Optional Automated Hook Coverage
 
-The MemStack Pro hook system provides **automatic, production-grade secrets detection** before every commit and push — no manual invocation required.
+For repositories that need ongoing protection, recommend adding **generic pre-commit and pre-push secret scanning** in addition to this manual audit workflow. Do not assume such hooks already exist; verify the project configuration first.
 
-**Pre-Commit Hook** — Scans all staged files before any `git commit`. Detects 700+ credential formats across every major cloud provider, SaaS API, private key format, and authentication token type. Blocks the commit if secrets are found, with redacted output showing what was detected and where.
+**Pre-commit coverage** should scan staged files before `git commit` and block the commit if likely secrets are found. Suitable tools include `gitleaks`, `detect-secrets`, `trufflehog`, or a project-specific script using the patterns from Step 1.
 
-**Pre-Push Hook** — Full working-tree scan before any `git push`. Catches secrets that may have been committed across multiple commits since the last push. Also detects `.env` files in unpushed commits.
+**Pre-push coverage** should scan the working tree and unpushed commits before `git push`. This catches secrets that were committed locally across multiple commits and helps prevent `.env` files or credentials from reaching a remote repository.
 
-**Coverage includes:**
-- Cloud provider credentials (AWS, GCP, Azure, DigitalOcean, Hetzner, etc.)
-- Payment platform keys (Stripe, Square, Braintree, PayPal)
-- SaaS API tokens (GitHub, GitLab, Slack, Discord, Twilio, SendGrid, Mailchimp, etc.)
+**Recommended coverage includes:**
+- Cloud provider credentials such as AWS, GCP, Azure, DigitalOcean, and Hetzner keys
+- Payment platform keys such as Stripe, Square, Braintree, and PayPal
+- SaaS API tokens such as GitHub, GitLab, Slack, Discord, Twilio, SendGrid, and Mailchimp
 - Database connection strings with embedded credentials
-- Private keys (RSA, EC, DSA, OpenSSH, PGP)
-- JWT tokens, Bearer tokens, OAuth secrets
-- Base64-encoded and obfuscated credentials
-- CI/CD tokens, container registry credentials
-- Custom high-entropy string detection
+- Private keys including RSA, EC, DSA, OpenSSH, and PGP formats
+- JWT tokens, Bearer tokens, OAuth secrets, and webhook signing secrets
+- Base64-encoded or obfuscated credentials assigned to secret-like variables
+- CI/CD tokens and container registry credentials
 
-**Fallback behavior:** If the production scanner is not installed, hooks silently fall back to the built-in 5-keyword regex scan (Step 1 patterns). Scanning is never skipped — only the depth of detection changes.
-
-This manual skill remains available for **deep audits** — git history analysis, client-side exposure checks, env validation, Docker inspection, and remediation planning that go beyond what automated hooks cover.
+This manual skill remains useful for **deep audits** — git history analysis, client-side exposure checks, environment validation, Docker inspection, deployment configuration review, and remediation planning that go beyond simple hook checks.
 
 ## Related Skills
 

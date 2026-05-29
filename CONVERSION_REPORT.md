@@ -5,8 +5,14 @@ This report covers the conversion of the 84 public/free MemStack skills into Man
 | Metric | Count |
 |---|---:|
 | Converted skills | 84 |
-| Marked needs review | 17 |
+| Marked needs review | 16 |
 | Resource groups/files copied | 6 |
+
+## Manual Review Updates
+
+| Skill | Status | Change made |
+|---|---|---|
+| `secrets-scanner` | Manus-ready draft | Removed `CLAUDE.md` from the documentation scan command and rewrote MemStack Pro hook coverage as optional generic pre-commit/pre-push secret scanning guidance. |
 
 ## Skills Marked Needs Review
 
@@ -23,7 +29,6 @@ This report covers the conversion of the 84 public/free MemStack skills into Man
 | `marketplace-submit` | marketing | CC session, Claude, Claude Code, MCP |
 | `project` | core | $MEMSTACK_PATH, CC session, memstack-db.py |
 | `quill` | core | $MEMSTACK_PATH, memstack-db.py |
-| `secrets-scanner` | security | Claude |
 | `ai-search-visibility` | seo-geo | Claude |
 | `site-audit` | seo-geo | Claude |
 | `state` | core | .claude, Claude |
@@ -105,7 +110,7 @@ This report covers the conversion of the 84 public/free MemStack skills into Man
 | `owasp-top10` | security | Manus-ready draft | `skills/security/owasp-top10/SKILL.md` | None |
 | `rls-checker` | security | Manus-ready draft | `skills/security/rls-checker/SKILL.md` | None |
 | `rls-guardian` | security | Manus-ready draft | `skills/security/rls-guardian/SKILL.md` | None |
-| `secrets-scanner` | security | Needs review | `skills/security/secrets-scanner/SKILL.md` | None |
+| `secrets-scanner` | security | Manus-ready draft | `skills/security/secrets-scanner/SKILL.md` | None |
 | `ai-search-visibility` | seo-geo | Needs review | `skills/seo-geo/ai-search-visibility/SKILL.md` | None |
 | `keyword-research` | seo-geo | Manus-ready draft | `skills/seo-geo/keyword-research/SKILL.md` | None |
 | `local-seo` | seo-geo | Manus-ready draft | `skills/seo-geo/local-seo/SKILL.md` | None |
