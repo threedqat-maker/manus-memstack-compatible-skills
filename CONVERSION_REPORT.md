@@ -12,9 +12,10 @@ This report covers the conversion of the 84 public/free MemStack skills into Man
 
 | Skill | Status | Change made |
 |---|---|---|
-| `ai-search-visibility` | Manus-ready draft | Reviewed on 2026-05-29: updated AI crawler table and robots.txt examples with verified OpenAI, Perplexity, and Anthropic crawler/fetcher names; removed questionable Manus/Mabus bot references; copied platform-ranking-factors.md into the skill references folder. |
+| `ai-search-visibility` | Manus-ready draft | Reviewed on 2026-05-29: updated AI crawler table and robots.txt examples with verified OpenAI, Perplexity, and Anthropic crawler/fetcher names; copied and updated platform-ranking-factors.md into the skill references folder. |
 | `governor` | Manus-ready draft | Reviewed on 2026-05-29: replaced Claude-specific context source wording with Manus-neutral project-context wording. |
 | `secrets-scanner` | Manus-ready draft | Reviewed on 2026-05-29: removed CLAUDE.md documentation scan and rewrote MemStack Pro hook coverage as optional generic pre-commit/pre-push secret scanning guidance. |
+| `site-audit` | Needs review | Reference updated on 2026-05-29: platform-ranking-factors.md rewritten with evidence grading, current crawler access matrix, and revised AI search guidance. |
 
 ## Skills Marked Needs Review
 

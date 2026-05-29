@@ -782,7 +782,7 @@
       "references/"
     ],
     "line_count": 332,
-    "manual_review_note": "Reviewed on 2026-05-29: updated AI crawler table and robots.txt examples with verified OpenAI, Perplexity, and Anthropic crawler/fetcher names; removed questionable Manus/Mabus bot references; copied platform-ranking-factors.md into the skill references folder."
+    "manual_review_note": "Reviewed on 2026-05-29: updated AI crawler table and robots.txt examples with verified OpenAI, Perplexity, and Anthropic crawler/fetcher names; copied and updated platform-ranking-factors.md into the skill references folder."
   },
   {
     "name": "keyword-research",
@@ -839,7 +839,8 @@
       "references/",
       "scripts/"
     ],
-    "line_count": 275
+    "line_count": 275,
+    "manual_review_note": "Reference updated on 2026-05-29: platform-ranking-factors.md rewritten with evidence grading, current crawler access matrix, and revised AI search guidance."
   },
   {
     "name": "shard",
