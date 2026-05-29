@@ -176,7 +176,7 @@ Page speed remains a quality and usability recommendation, but avoid presenting 
 
 Anthropic’s current crawler documentation identifies three primary bots: `ClaudeBot`, `Claude-User`, and `Claude-SearchBot`. `ClaudeBot` is associated with model-training crawl use, `Claude-User` with user-directed access, and `Claude-SearchBot` with search indexing and result quality.[3]
 
-The previous reference’s `anthropic-ai` user agent and hard claim that Claude Search is backed by Brave Search should not be treated as official without fresh supporting evidence. Anthropic’s official web search tool documentation confirms that Claude can use a web search tool and return cited sources, but it does not expose a public ranking formula or a complete backend-provider statement in the extracted documentation.[9]
+The previous reference’s legacy Anthropic crawler wording and hard claim that Claude Search is backed by Brave Search should not be treated as official without fresh supporting evidence. Anthropic’s official web search tool documentation confirms that Claude can use a web search tool and return cited sources, but it does not expose a public ranking formula or a complete backend-provider statement in the extracted documentation.[9]
 
 | Priority | What to do |
 |---|---|
