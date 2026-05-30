@@ -1,12 +1,12 @@
 # Manus MemStack Compatible Skills
 
-This private repository contains a Manus-compatible conversion of the **84 public/free skills** from [`cwinvestments/memstack`](https://github.com/cwinvestments/memstack). The original project is MIT-licensed; the original license is preserved in [`LICENSE`](LICENSE).
+This private repository contains **71 Manus-compatible skills** converted from the public/free [`cwinvestments/memstack`](https://github.com/cwinvestments/memstack) skill set. The original project is MIT-licensed; the original license is preserved in [`LICENSE`](LICENSE).
 
-The conversion intentionally excludes Claude runtime infrastructure such as `.claude/`, hooks, local MCP loader configuration, dashboard files, and non-public Pro skills. Skills that still contain Claude/MemStack-specific assumptions are marked **Needs review** and should not be relied on until reviewed.
+The repository intentionally excludes Claude runtime infrastructure such as `.claude/`, hooks, local MCP loader configuration, dashboard files, non-public Pro skills, and MemStack-dependent skills that require unavailable runtime services.
 
 ## Structure
 
-Each converted skill is stored as a self-contained Manus skill package:
+Each skill is stored as a self-contained Manus skill package:
 
 ```text
 skills/<skill-name>/
@@ -20,38 +20,38 @@ When installing or copying a skill, keep the whole skill folder together. Some s
 
 | Metric | Count |
 |---|---:|
-| Converted public/free skills | 84 |
+| Manus-compatible skills retained | 71 |
 | Manus-ready drafts | 71 |
-| Skills marked needs review | 13 |
-| Bundled resource groups/files copied | 7 |
-| Skills with Manus-native `Scope Guard` | 84 |
-| Skills with restored useful `Anti-patterns` | 21 |
+| Skills marked needs review | 0 |
+| MemStack/Claude runtime-dependent skills removed | 13 |
+| Bundled resource groups/files copied | 4 |
+| Skills with Manus-native `Scope Guard` | 71 |
+| Skills with restored useful `Anti-patterns` | 20 |
 | Claude-style `Activation` sections retained | 0 |
 
 ## Installation guidance
 
 Install individual skills from `skills/<skill-name>/SKILL.md`. If a skill has a `references/`, `scripts/`, or `templates/` directory, keep those folders with the skill so Manus can access the supporting resources during use.
 
-For immediate operational use, prefer skills marked **Manus-ready draft**. Skills marked **Needs review** are included for completeness, but may still contain assumptions about Claude Code, MemStack storage, MCP loader behavior, hooks, or session-management workflows.
+All skills retained in the main `skills/` directory are Manus-ready drafts. They should still be tested during real use, but the known MemStack/Claude runtime-dependent skills have been removed from the installable catalog.
 
 ## Manus-Compatible Skill Catalog
 
 ### Automation
 
-This group contains **6** skills: **5** Manus-ready draft(s) and **1** needing review.
+This group contains **5** Manus-compatible skill(s).
 
 | Skill | Status | Purpose |
 |---|---|---|
 | [`api-integration`](skills/api-integration/SKILL.md) | Manus-ready draft | Use for 'API integration', 'connect APIs', 'sync data', 'data mapping', 'rate limiting', or needs system-to-system connectors with authentication, rate limit handling, and error recovery. Generates API integration code with authentication (OAuth, API key, JWT), request/response mapping, rate limit handling, error recovery with circuit breakers, and sync monitoring. **Do not use for** visual n8n workflows or webhook receiving. |
 | [`content-pipeline`](skills/content-pipeline/SKILL.md) | Manus-ready draft | Use for 'content pipeline', 'content automation', 'auto-publish', 'repurpose content', 'multi-platform publishing', or needs end-to-end content workflow from ideation through cross-platform formatting and publishing. **Do not use for** single social media posts or individual blog posts. |
 | [`cron-scheduler`](skills/cron-scheduler/SKILL.md) | Manus-ready draft | Use for 'cron job', 'scheduled task', 'run every', 'cron expression', 'recurring job', or needs production-grade scheduled jobs with overlap prevention, monitoring, and structured logging. **Do not use for** n8n workflows or event-driven webhooks. |
-| [`hosted-mcp-catalog`](skills/hosted-mcp-catalog/SKILL.md) | Needs review | Use for 'what MCP servers', 'find an MCP for', 'hosted MCP', 'list MCP servers', 'MCP catalog', 'available MCP tools', or needs to discover zero-setup hosted MCP servers they can use immediately. **Do not use for** building MCP servers or configuring local MCP. |
 | [`n8n-workflow-builder`](skills/n8n-workflow-builder/SKILL.md) | Manus-ready draft | Use for 'n8n workflow', 'build a workflow', 'automation workflow', 'connect services', or needs visual workflow design with node mapping, data transformations, and error handling for n8n. **Do not use for** standalone webhook endpoints or cron jobs. |
 | [`webhook-designer`](skills/webhook-designer/SKILL.md) | Manus-ready draft | Use for 'webhook', 'webhook handler', 'webhook endpoint', 'receive events', 'HMAC verification', 'idempotency', or needs secure webhook handlers with signature verification, retry handling, and dead letter queues. **Do not use for** full n8n workflows or scheduled tasks. |
 
 ### Business
 
-This group contains **10** skills: **10** Manus-ready draft(s) and **0** needing review.
+This group contains **10** Manus-compatible skill(s).
 
 | Skill | Status | Purpose |
 |---|---|---|
@@ -68,7 +68,7 @@ This group contains **10** skills: **10** Manus-ready draft(s) and **0** needing
 
 ### Content
 
-This group contains **8** skills: **8** Manus-ready draft(s) and **0** needing review.
+This group contains **8** Manus-compatible skill(s).
 
 | Skill | Status | Purpose |
 |---|---|---|
@@ -83,31 +83,20 @@ This group contains **8** skills: **8** Manus-ready draft(s) and **0** needing r
 
 ### Core
 
-This group contains **17** skills: **6** Manus-ready draft(s) and **11** needing review.
+This group contains **6** Manus-compatible skill(s).
 
 | Skill | Status | Purpose |
 |---|---|---|
-| [`compress`](skills/compress/SKILL.md) | Needs review | Use for 'headroom', 'compression', 'token savings', 'proxy status', or asks about context window usage. |
-| [`diary`](skills/diary/SKILL.md) | Needs review | Use for 'save diary', 'log session', 'wrapping up', or at end of a productive session. |
-| [`echo`](skills/echo/SKILL.md) | Needs review | Use when the user references past sessions, asks 'what did we do', 'do you remember', 'last session', 'recall', or 'continue from'. |
-| [`familiar`](skills/familiar/SKILL.md) | Needs review | Use for 'dispatch', 'send familiar', 'split task', or needs work split across parallel CC sessions. |
-| [`forge`](skills/forge/SKILL.md) | Needs review | Use for 'forge this', 'new skill', 'create enchantment', or wants to create a MemStack skill. |
 | [`governor`](skills/governor/SKILL.md) | Manus-ready draft | Use for 'new project', 'project init', 'what tier', 'scope', or discusses project maturity, complexity budget, or what's appropriate to build. |
-| [`grimoire`](skills/grimoire/SKILL.md) | Needs review | Use for 'update context', 'update claude', 'save library', or after significant project changes. |
 | [`humanize`](skills/humanize/SKILL.md) | Manus-ready draft | Use for 'humanize', 'clean up writing', 'make it sound natural', or wants text to not sound AI-generated. |
-| [`project`](skills/project/SKILL.md) | Needs review | Use for 'save project', 'handoff', or when context is running low and state must be preserved. |
-| [`quill`](skills/quill/SKILL.md) | Needs review | Use for 'create quotation', 'generate quote', 'proposal', or needs a client-facing price document. |
 | [`scan`](skills/scan/SKILL.md) | Manus-ready draft | Use for 'scan project', 'estimate', 'how much to charge', or needs codebase complexity analysis. |
 | [`shard`](skills/shard/SKILL.md) | Manus-ready draft | Use for 'shard this', 'split file', or when working with files over 1000 lines. |
 | [`sight`](skills/sight/SKILL.md) | Manus-ready draft | Use for 'draw', 'diagram', 'visualize', 'architecture', or needs a visual overview of code structure. |
-| [`state`](skills/state/SKILL.md) | Needs review | Use for 'update state', 'project state', 'where was I', or at session start to load current context. |
-| [`token-optimization`](skills/token-optimization/SKILL.md) | Needs review | Use for 'token optimization', 'save tokens', 'context window', 'reduce tokens', 'RTK', 'Serena', 'token stack', or asks about extending context window capacity. Covers the 3-layer token optimization stack: Headroom (API compression), RTK (CLI output compression), and Serena (LSP-backed code navigation). **Do not use for** Headroom-only troubleshooting (Compress skill). |
 | [`verify`](skills/verify/SKILL.md) | Manus-ready draft | Use for 'verify', 'check this work', 'does it pass', or before committing completed work. |
-| [`work`](skills/work/SKILL.md) | Needs review | Use for 'plan', 'todo', 'copy plan', 'append plan', 'resume plan', 'priorities', or 'what's next'. |
 
 ### Deployment
 
-This group contains **6** skills: **6** Manus-ready draft(s) and **0** needing review.
+This group contains **6** Manus-compatible skill(s).
 
 | Skill | Status | Purpose |
 |---|---|---|
@@ -120,7 +109,7 @@ This group contains **6** skills: **6** Manus-ready draft(s) and **0** needing r
 
 ### Development
 
-This group contains **9** skills: **9** Manus-ready draft(s) and **0** needing review.
+This group contains **9** Manus-compatible skill(s).
 
 | Skill | Status | Purpose |
 |---|---|---|
@@ -136,7 +125,7 @@ This group contains **9** skills: **9** Manus-ready draft(s) and **0** needing r
 
 ### Marketing
 
-This group contains **9** skills: **8** Manus-ready draft(s) and **1** needing review.
+This group contains **8** Manus-compatible skill(s).
 
 | Skill | Status | Purpose |
 |---|---|---|
@@ -145,14 +134,13 @@ This group contains **9** skills: **8** Manus-ready draft(s) and **1** needing r
 | [`google-ad`](skills/google-ad/SKILL.md) | Manus-ready draft | Use for 'google ad', 'search ad', 'PPC', 'Google Ads', 'responsive search ad', 'ad extensions', or needs keyword groups, headlines, descriptions, and Quality Score optimization for Google Ads. **Do not use for** Facebook/Meta ads or SEO. |
 | [`launch-plan`](skills/launch-plan/SKILL.md) | Manus-ready draft | Use for 'launch plan', 'product launch', 'go-to-market', 'launch calendar', or needs a day-by-day launch timeline with pre-launch, launch week, and post-launch task checklists. **Do not use for** ongoing funnel design or ad copy alone. |
 | [`lead-magnet`](skills/lead-magnet/SKILL.md) | Manus-ready draft | Use for 'lead magnet', 'opt-in', 'freebie', 'list building', 'email list growth', or needs a lead capture asset with landing page copy, delivery emails, and nurture sequence. **Do not use for** full funnel design or paid ad copy. |
-| [`marketplace-submit`](skills/marketplace-submit/SKILL.md) | Needs review | Use for 'submit to marketplace', 'publish my skill', 'share this skill', 'list on marketplace', 'submit plugin', 'publish to community', or needs to submit a skill or plugin to a community marketplace via PR. **Do not use for** building skills or writing plugin code. |
 | [`pricing-strategy`](skills/pricing-strategy/SKILL.md) | Manus-ready draft | Use for 'pricing strategy', 'how to price', 'pricing model', 'tier structure', 'pricing psychology', or needs to design pricing tiers, apply pricing psychology, and plan A/B price tests. **Do not use for** competitor pricing comparison alone. |
 | [`sales-funnel`](skills/sales-funnel/SKILL.md) | Manus-ready draft | Use for 'sales funnel', 'funnel', 'conversion funnel', 'customer journey', or wants to map the complete customer journey from stranger to repeat buyer with copy hooks and conversion targets. **Do not use for** ad copy creation or time-bound launch plans. |
 | [`webinar-script`](skills/webinar-script/SKILL.md) | Manus-ready draft | Use for 'webinar script', 'webinar', 'live presentation', 'teach-to-sell', or needs a timestamped presentation script with slide notes, presenter cues, and replay email sequence. **Do not use for** launch plans or static sales page copy. |
 
 ### Product
 
-This group contains **6** skills: **6** Manus-ready draft(s) and **0** needing review.
+This group contains **6** Manus-compatible skill(s).
 
 | Skill | Status | Purpose |
 |---|---|---|
@@ -165,7 +153,7 @@ This group contains **6** skills: **6** Manus-ready draft(s) and **0** needing r
 
 ### Security
 
-This group contains **7** skills: **7** Manus-ready draft(s) and **0** needing review.
+This group contains **7** Manus-compatible skill(s).
 
 | Skill | Status | Purpose |
 |---|---|---|
@@ -179,7 +167,7 @@ This group contains **7** skills: **7** Manus-ready draft(s) and **0** needing r
 
 ### SEO/GEO
 
-This group contains **6** skills: **6** Manus-ready draft(s) and **0** needing review.
+This group contains **6** Manus-compatible skill(s).
 
 | Skill | Status | Purpose |
 |---|---|---|
@@ -190,10 +178,30 @@ This group contains **6** skills: **6** Manus-ready draft(s) and **0** needing r
 | [`schema-markup`](skills/schema-markup/SKILL.md) | Manus-ready draft | Use for 'add schema', 'schema markup', 'JSON-LD', 'structured data', 'rich results', 'rich snippets', or is adding or fixing schema.org structured data for better search result appearance. **Do not use for** meta tag optimization or full SEO audits. |
 | [`site-audit`](skills/site-audit/SKILL.md) | Manus-ready draft | Use for 'SEO audit', 'site audit', 'check SEO', 'audit my site', 'SEO check', 'technical SEO', or is evaluating a website's search engine optimization health, meta tags, performance, or structured data. **Do not use for** keyword research or schema markup generation alone. |
 
+## Removed MemStack/Claude Runtime-Dependent Skills
+
+The following skills were removed from the main installable catalog because they require MemStack or Claude Code runtime infrastructure that is not available in Manus. Git history preserves the previous converted versions if they are ever needed for a rewrite.
+
+| Removed skill | Former category | Reason |
+|---|---|---|
+| `compress` | core | Depends on Claude Code session/context compression and MemStack/TokenStack behavior. |
+| `diary` | core | Depends on $MEMSTACK_PATH, memstack-db.py, SQLite session storage, .claude, hooks, and Claude Code session logging. |
+| `echo` | core | Depends on MemStack SQLite/semantic session memory, diary search, $MEMSTACK_PATH, and .claude. |
+| `familiar` | core | Depends on MemStack paths and Claude Code multi-session workflow assumptions. |
+| `forge` | core | Creates MemStack skills via $MEMSTACK_PATH; not a Manus-native skill creation workflow. |
+| `grimoire` | core | Manages CLAUDE.md files and includes Claude/Windows path assumptions. |
+| `hosted-mcp-catalog` | automation | Current version is Claude/MCP-client specific and should be rewritten before Manus use. |
+| `marketplace-submit` | marketing | Depends on Claude Code session/MCP marketplace workflow assumptions and MemStack branding. |
+| `project` | core | Depends on $MEMSTACK_PATH, memstack-db.py, SQLite project snapshot storage, and Claude Code handoff conventions. |
+| `quill` | core | Depends on MemStack SQLite context and memstack-db.py; overlaps with Manus-compatible proposal/SOW/invoice skills. |
+| `state` | core | Depends on .claude/STATE.md and MemStack-style state management. |
+| `token-optimization` | core | Depends on Claude Code, MCP setup, hooks, RTK/Serena/TokenStack, and Claude command injection assumptions. |
+| `work` | core | Depends on $MEMSTACK_PATH, .claude, CLAUDE.md, STATE.md, memstack-db.py, SQLite, diary, and MemStack planning state. |
+
 ## Conversion Policy
 
-Claude-style `Activation` sections were intentionally omitted because Manus uses skill metadata for routing and does not need fixed activation banners. Each converted skill includes a Manus-native `Scope Guard` section. Useful `Anti-patterns` sections from the original skills were restored where present because they provide task-specific reasoning guardrails.
+Claude-style `Activation` sections were intentionally omitted because Manus uses skill metadata for routing and does not need fixed activation banners. Each retained skill includes a Manus-native `Scope Guard` section. Useful `Anti-patterns` sections from the original skills were restored where present because they provide task-specific reasoning guardrails.
 
 ## Practical note
 
-This is a first-pass, credit-efficient conversion. The domain-specific workflows are largely preserved, but runtime-specific skills should be tested and revised before operational use in Manus. Review [`CONVERSION_REPORT.md`](CONVERSION_REPORT.md) for details on remaining needs-review items and manual updates already completed.
+This is a first-pass, credit-efficient conversion. The domain-specific workflows are largely preserved, but each skill should still be tested and refined during real Manus usage. Review [`CONVERSION_REPORT.md`](CONVERSION_REPORT.md) for cleanup details and manual updates already completed.

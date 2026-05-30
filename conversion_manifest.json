@@ -33,23 +33,6 @@
     "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
-    "name": "hosted-mcp-catalog",
-    "category": "automation",
-    "source": "skills/automation/hosted-mcp-catalog/SKILL.md",
-    "destination": "skills/hosted-mcp-catalog/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      ".mcp.json",
-      "Claude",
-      "Claude Code",
-      "Claude Desktop",
-      "MCP"
-    ],
-    "resources_copied": [],
-    "line_count": 140,
-    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
-  },
-  {
     "name": "n8n-workflow-builder",
     "category": "automation",
     "source": "skills/automation/n8n-workflow-builder/SKILL.md",
@@ -179,21 +162,6 @@
     "review_reasons": [],
     "resources_copied": [],
     "line_count": 307,
-    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
-  },
-  {
-    "name": "compress",
-    "category": "core",
-    "source": "skills/compress/SKILL.md",
-    "destination": "skills/compress/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      "CC session",
-      "Claude",
-      "Claude Code"
-    ],
-    "resources_copied": [],
-    "line_count": 121,
     "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
@@ -450,76 +418,6 @@
     "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
-    "name": "diary",
-    "category": "core",
-    "source": "skills/diary/SKILL.md",
-    "destination": "skills/diary/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      "$MEMSTACK_PATH",
-      ".claude",
-      "CC session",
-      "Claude",
-      "Claude Code",
-      "PostToolUse",
-      "PowerShell",
-      "PreToolUse",
-      "SessionStart",
-      "memstack-db.py"
-    ],
-    "resources_copied": [],
-    "line_count": 200,
-    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
-  },
-  {
-    "name": "echo",
-    "category": "core",
-    "source": "skills/echo/SKILL.md",
-    "destination": "skills/echo/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      "$MEMSTACK_PATH",
-      ".claude",
-      "CC session",
-      "Claude",
-      "memstack-db.py"
-    ],
-    "resources_copied": [
-      "UPGRADE_PLAN.md",
-      "index-sessions.py",
-      "search.py"
-    ],
-    "line_count": 136,
-    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
-  },
-  {
-    "name": "familiar",
-    "category": "core",
-    "source": "skills/familiar/SKILL.md",
-    "destination": "skills/familiar/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      "$MEMSTACK_PATH",
-      "CC session"
-    ],
-    "resources_copied": [],
-    "line_count": 59,
-    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
-  },
-  {
-    "name": "forge",
-    "category": "core",
-    "source": "skills/forge/SKILL.md",
-    "destination": "skills/forge/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      "$MEMSTACK_PATH"
-    ],
-    "resources_copied": [],
-    "line_count": 67,
-    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
-  },
-  {
     "name": "governor",
     "category": "core",
     "source": "skills/governor/SKILL.md",
@@ -529,19 +427,6 @@
     "resources_copied": [],
     "line_count": 160,
     "manual_review_note": "Reviewed on 2026-05-29: replaced Claude-specific context source wording with Manus-neutral project-context wording.",
-    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
-  },
-  {
-    "name": "grimoire",
-    "category": "core",
-    "source": "skills/grimoire/SKILL.md",
-    "destination": "skills/grimoire/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      "Claude"
-    ],
-    "resources_copied": [],
-    "line_count": 63,
     "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
@@ -608,22 +493,6 @@
     "review_reasons": [],
     "resources_copied": [],
     "line_count": 326,
-    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
-  },
-  {
-    "name": "marketplace-submit",
-    "category": "marketing",
-    "source": "skills/marketing/marketplace-submit/SKILL.md",
-    "destination": "skills/marketplace-submit/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      "CC session",
-      "Claude",
-      "Claude Code",
-      "MCP"
-    ],
-    "resources_copied": [],
-    "line_count": 175,
     "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
@@ -723,35 +592,6 @@
     "review_reasons": [],
     "resources_copied": [],
     "line_count": 282,
-    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
-  },
-  {
-    "name": "project",
-    "category": "core",
-    "source": "skills/project/SKILL.md",
-    "destination": "skills/project/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      "$MEMSTACK_PATH",
-      "CC session",
-      "memstack-db.py"
-    ],
-    "resources_copied": [],
-    "line_count": 80,
-    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
-  },
-  {
-    "name": "quill",
-    "category": "core",
-    "source": "skills/quill/SKILL.md",
-    "destination": "skills/quill/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      "$MEMSTACK_PATH",
-      "memstack-db.py"
-    ],
-    "resources_copied": [],
-    "line_count": 65,
     "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
@@ -941,36 +781,6 @@
     "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   },
   {
-    "name": "state",
-    "category": "core",
-    "source": "skills/state/SKILL.md",
-    "destination": "skills/state/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      ".claude",
-      "Claude"
-    ],
-    "resources_copied": [],
-    "line_count": 114,
-    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
-  },
-  {
-    "name": "token-optimization",
-    "category": "core",
-    "source": "skills/token-optimization/SKILL.md",
-    "destination": "skills/token-optimization/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      "Claude",
-      "Claude Code",
-      "MCP",
-      "claude mcp"
-    ],
-    "resources_copied": [],
-    "line_count": 364,
-    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
-  },
-  {
     "name": "verify",
     "category": "core",
     "source": "skills/verify/SKILL.md",
@@ -979,22 +789,6 @@
     "review_reasons": [],
     "resources_copied": [],
     "line_count": 151,
-    "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
-  },
-  {
-    "name": "work",
-    "category": "core",
-    "source": "skills/work/SKILL.md",
-    "destination": "skills/work/SKILL.md",
-    "needs_review": true,
-    "review_reasons": [
-      "$MEMSTACK_PATH",
-      ".claude",
-      "Claude",
-      "memstack-db.py"
-    ],
-    "resources_copied": [],
-    "line_count": 130,
     "structure_policy": "Activation sections intentionally omitted; Manus-native Scope Guard present; useful Anti-patterns restored when available in original source."
   }
 ]
