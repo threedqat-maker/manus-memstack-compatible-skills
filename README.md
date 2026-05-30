@@ -1,6 +1,6 @@
 # Manus MemStack Compatible Skills
 
-This private repository contains **71 Manus-compatible skills** converted from the public/free [`cwinvestments/memstack`](https://github.com/cwinvestments/memstack) skill set. The original project is MIT-licensed; the original license is preserved in [`LICENSE`](LICENSE).
+This repository contains **71 Manus-compatible skills** converted from the public/free [`cwinvestments/memstack`](https://github.com/cwinvestments/memstack) skill set. The original project is MIT-licensed; the original license is preserved in [`LICENSE`](LICENSE).
 
 The repository intentionally excludes Claude runtime infrastructure such as `.claude/`, hooks, local MCP loader configuration, dashboard files, non-public Pro skills, and MemStack-dependent skills that require unavailable runtime services.
 
